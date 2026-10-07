@@ -1,38 +1,39 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr" data-theme="dark">
+<html lang="ar" dir="rtl" data-theme="light">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Al Maha Community · West Riyadh | Thimarya</title>
-<meta name="description" content="Al Maha Community — seven model residential developments in western Riyadh across 13 million m². Developed by Thimarya Real Estate." />
+<title>مخطط المها · غرب الرياض | ثمارية</title>
+<meta name="description" content="مخطط المها من ثمارية — سبعة مخططات سكنية نموذجية غرب الرياض على أكثر من 13 مليون م². Al Maha by Thimarya — seven model residential plans in west Riyadh across 13 million m²." />
 <link rel="icon" href="assets/al-maha.webp" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500;600&family=El+Messiri:wght@400;500;600;700&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="style.css" />
 </head>
-<body class="lang-en lock">
+<body class="lang-ar lock">
 
 <!-- ============ LOADER ============ -->
 <div id="loader">
   <div class="loader-inner">
-    <img src="assets/logo-1.webp" alt="Thimarya" />
+    <img src="assets/almaha-logo-white.png" alt="المها" />
     <div class="loader-bar"><i></i></div>
-    <div class="loader-tag" data-ar="مجتمع المها" data-en="Al Maha Community">Al Maha Community</div>
+    <div class="loader-tag" data-ar="عين المستقبل" data-en="The Eye of the Future">عين المستقبل</div>
   </div>
 </div>
 
 <!-- ============ HEADER ============ -->
 <header id="header">
   <div class="wrap nav">
-    <a href="#top" class="nav-logo"><img src="assets/logo-1.webp" alt="Thimarya" /></a>
+    <a href="#top" class="nav-logo"><img src="assets/almaha-logo-white.png" alt="مخطط المها" /></a>
     <nav>
       <ul class="nav-links">
-        <li><a href="#concept" data-ar="المشروع" data-en="The Project">The Project</a></li>
-        <li><a href="#offerings" data-ar="أبرز المعالم" data-en="Highlights">Highlights</a></li>
-        <li><a href="#features" data-ar="الخدمات" data-en="Services">Services</a></li>
-        <li><a href="#faq" data-ar="الأسئلة الشائعة" data-en="FAQ">FAQ</a></li>
-        <li><a href="#location" data-ar="الموقع" data-en="Location">Location</a></li>
+        <li><a href="#concept" data-ar="الفرصة" data-en="Opportunity">الفرصة</a></li>
+        <li><a href="#lands" data-ar="الأراضي" data-en="Lands">الأراضي</a></li>
+        <li><a href="#masterplan" data-ar="المخطط" data-en="Master Plan">المخطط</a></li>
+        <li><a href="#services" data-ar="الخدمات" data-en="Services">الخدمات</a></li>
+        <li><a href="#location" data-ar="الموقع" data-en="Location">الموقع</a></li>
+        <li><a href="#gallery" data-ar="المعرض" data-en="Gallery">المعرض</a></li>
       </ul>
     </nav>
     <div class="nav-right">
@@ -40,155 +41,276 @@
         <svg class="ic-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.2M12 19.8V22M4.2 4.2l1.6 1.6M18.2 18.2l1.6 1.6M2 12h2.2M19.8 12H22M4.2 19.8l1.6-1.6M18.2 5.8l1.6-1.6"/></svg>
         <svg class="ic-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.3 6.3 0 0 0 10.5 10.5z"/></svg>
       </button>
-      <button class="lang-toggle" id="langBtn" aria-label="Switch language"><span data-ar="EN" data-en="ع">ع</span></button>
-      <a href="#contact" data-open-modal class="btn btn-ghost nav-cta" data-ar="احجز الآن!" data-en="Book now!">Book now!</a>
+      <button class="lang-toggle" id="langBtn" aria-label="Switch language"><span data-ar="EN" data-en="ع">EN</span></button>
+      <a href="#contact" data-open-modal class="btn btn-primary nav-cta" data-ar="احجز الآن!" data-en="Book now!">احجز الآن!</a>
       <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
     </div>
   </div>
 </header>
 
 <div class="m-menu" id="mMenu">
-  <a href="#concept" data-ar="المشروع" data-en="The Project">The Project</a>
-  <a href="#offerings" data-ar="أبرز المعالم" data-en="Highlights">Highlights</a>
-  <a href="#features" data-ar="الخدمات" data-en="Services">Services</a>
-  <a href="#faq" data-ar="الأسئلة الشائعة" data-en="FAQ">FAQ</a>
-  <a href="#location" data-ar="الموقع" data-en="Location">Location</a>
-  <a href="#contact" data-open-modal class="btn btn-primary" data-ar="احجز الآن!" data-en="Book now!">Book now!</a>
+  <a href="#concept" data-ar="الفرصة" data-en="Opportunity">الفرصة</a>
+  <a href="#lands" data-ar="الأراضي" data-en="Lands">الأراضي</a>
+  <a href="#masterplan" data-ar="المخطط" data-en="Master Plan">المخطط</a>
+  <a href="#services" data-ar="الخدمات" data-en="Services">الخدمات</a>
+  <a href="#location" data-ar="الموقع" data-en="Location">الموقع</a>
+  <a href="#gallery" data-ar="المعرض" data-en="Gallery">المعرض</a>
+  <a href="#contact" data-open-modal class="btn btn-primary" data-ar="احجز الآن!" data-en="Book now!">احجز الآن!</a>
 </div>
 
 <main id="top">
 
 <!-- ============ HERO ============ -->
 <section class="hero" id="hero">
-  <div class="hero-bg"><img src="assets/almaha.webp" alt="Al Maha master plan aerial view" /></div>
+  <div class="hero-bg"><img src="assets/almaha.webp" alt="مخطط المها — منظور جوي" /></div>
   <div class="wrap hero-inner">
-    <span class="eyebrow" data-ar="غرب الرياض · سبعة مجتمعات سكنية نموذجية" data-en="West Riyadh · 7 Model Residential Plots">West Riyadh · 7 Model Residential Plots</span>
-    <h1 class="display" data-ar="مجتمع المها" data-en="Al Maha">Al Maha</h1>
-    <p class="lead" data-ar="تضم مدينة المها سبعة مجتمعات سكنية نموذجية في غرب الرياض، على مساحة تتجاوز 13 مليون م²، وقد طُوّرت وفق مخطط عمراني متكامل يضع جودة الحياة والاستدامة في المقدمة. وخُصّص أكثر من 60% من مساحة المشروع للمرافق العامة والخدمات والمساحات المفتوحة." data-en="The city of Al-Maha includes seven model residential developments in western Riyadh, covering an area of more than 13 million square meters, and has been developed according to an integrated urban plan that prioritizes quality of life and sustainability. More than 60% of the project's area has been allocated to public facilities, services, and open spaces.">The city of Al-Maha includes seven model residential developments in western Riyadh, covering an area of more than 13 million square meters, and has been developed according to an integrated urban plan that prioritizes quality of life and sustainability. More than 60% of the project's area has been allocated to public facilities, services, and open spaces.</p>
+    <span class="eyebrow" data-ar="غرب الرياض · 7 مخططات سكنية نموذجية" data-en="West Riyadh · 7 Model Residential Plots">غرب الرياض · 7 مخططات سكنية نموذجية</span>
+    <h1 class="display" data-ar="المها — عين المستقبل" data-en="Al Maha — The Eye of the Future">المها — عين المستقبل</h1>
+    <p class="lead" data-ar="وجهة حضارية غرب العاصمة الرياض تمتد على أكثر من 13 مليون متر مربع، تجمع بين المخططات الجذابة والتصاميم الرائعة، وتجاورها نخبة من المشاريع العالمية. خُصّص أكثر من 60% من مساحتها للمرافق العامة والخدمات والمساحات المفتوحة." data-en="The city of Al-Maha includes seven model residential developments in western Riyadh, covering an area of more than 13 million square meters, and has been developed according to an integrated urban plan that prioritizes quality of life and sustainability. More than 60% of the project's area has been allocated to public facilities, services, and open spaces.">وجهة حضارية غرب العاصمة الرياض تمتد على أكثر من 13 مليون متر مربع، تجمع بين المخططات الجذابة والتصاميم الرائعة، وتجاورها نخبة من المشاريع العالمية. خُصّص أكثر من 60% من مساحتها للمرافق العامة والخدمات والمساحات المفتوحة.</p>
     <div class="hero-ctas">
-      <a href="#contact" data-open-modal class="btn btn-primary" data-ar="احجز الآن!" data-en="Book now!">Book now!</a>
-      <a href="#location" class="btn btn-ghost"><span data-ar="موقع المشروع" data-en="Project Location">Project Location</span> <span class="arr">→</span></a>
+      <a href="#contact" data-open-modal class="btn btn-primary" data-ar="احجز الآن!" data-en="Book now!">احجز الآن!</a>
+      <a href="#masterplan" class="btn btn-ghost"><span data-ar="استعرض المخطط" data-en="Explore the plan">استعرض المخطط</span> <span class="arr">→</span></a>
     </div>
     <div class="hero-specbar reveal">
-      <div class="hsb"><span class="hsb-k" data-ar="الموقع الاستراتيجي" data-en="Strategic Location">Strategic Location</span><span class="hsb-v" data-ar="غرب الرياض" data-en="West of Riyadh">West of Riyadh</span></div>
-      <div class="hsb"><span class="hsb-k" data-ar="الوحدات السكنية" data-en="Residential Units">Residential Units</span><span class="hsb-v" data-ar="أكثر من 25,000" data-en="More than 25,000">More than 25,000</span></div>
-      <div class="hsb"><span class="hsb-k" data-ar="المساحة" data-en="Area">Area</span><span class="hsb-v" data-ar="13 مليون م²" data-en="13 million m²">13 million m²</span></div>
-      <div class="hsb"><span class="hsb-k" data-ar="المرافق" data-en="Facilities">Facilities</span><span class="hsb-v" data-ar="بنية تحتية متكاملة" data-en="Integrated Infrastructure">Integrated Infrastructure</span></div>
+      <div class="hsb"><span class="hsb-k" data-ar="الموقع" data-en="Location">الموقع</span><span class="hsb-v" data-ar="غرب الرياض" data-en="West Riyadh">غرب الرياض</span></div>
+      <div class="hsb"><span class="hsb-k" data-ar="المساحة" data-en="Area">المساحة</span><span class="hsb-v" data-ar="+13 مليون م²" data-en="13M+ m²">+13 مليون م²</span></div>
+      <div class="hsb"><span class="hsb-k" data-ar="الوحدات السكنية" data-en="Residential units">الوحدات السكنية</span><span class="hsb-v" data-ar="+25,000" data-en="25,000+">+25,000</span></div>
+      <div class="hsb"><span class="hsb-k" data-ar="قطع الفلل" data-en="Villa plots">قطع الفلل</span><span class="hsb-v">11,000</span></div>
+      <div class="hsb"><span class="hsb-k" data-ar="قطع تجارية" data-en="Commercial plots">قطع تجارية</span><span class="hsb-v">550</span></div>
+      <div class="hsb"><span class="hsb-k" data-ar="عمائر سكنية" data-en="Apartment plots">عمائر سكنية</span><span class="hsb-v">1,245</span></div>
     </div>
   </div>
 </section>
 
-<!-- ============ CONCEPT ============ -->
+<!-- ============ OPPORTUNITY ============ -->
 <section class="concept" id="concept">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="eyebrow" data-ar="المشروع" data-en="The Project">The Project</span>
-      <h2 class="h2" data-ar="سبعة مجتمعات سكنية نموذجية في غرب الرياض." data-en="Seven model residential developments in West Riyadh.">Seven model residential developments in West Riyadh.</h2>
-      <p class="lead" data-ar="مجتمع حضري متكامل يتّسع لأكثر من 10,000 أسرة، بجوار وجهات ترفيهية عالمية كبرى مثل القدية ومتنزه الأمير محمد بن سلمان." data-en="A fully integrated urban community accommodating more than 10,000 families, adjacent to major global entertainment destinations such as Qiddiya and Prince Mohammed bin Salman Park.">A fully integrated urban community accommodating more than 10,000 families, adjacent to major global entertainment destinations such as Qiddiya and Prince Mohammed bin Salman Park.</p>
+      <span class="eyebrow" data-ar="الفرصة" data-en="The Opportunity">الفرصة</span>
+      <h2 class="h2" data-ar="قصة عقارية فريدة في امتداد غرب الرياض." data-en="A unique real-estate story west of Riyadh.">قصة عقارية فريدة في امتداد غرب الرياض.</h2>
+      <p class="lead" data-ar="رؤية استثمارية ذكية مستقبلية تتوسط تطورًا عمرانيًا ملهمًا في قلب الامتداد الجغرافي والتوسع العمراني غرب العاصمة الرياض." data-en="A smart, forward-looking investment vision at the heart of inspiring urban development, in the geographic and urban expansion west of the capital, Riyadh.">رؤية استثمارية ذكية مستقبلية تتوسط تطورًا عمرانيًا ملهمًا في قلب الامتداد الجغرافي والتوسع العمراني غرب العاصمة الرياض.</p>
     </div>
     <div class="concept-motif reveal">
-      <div class="cm"><div class="n">01</div><h3 data-ar="سكني — فلل" data-en="Villa Residential">Villa Residential</h3><p data-ar="قطع أراضٍ مخصصة لبناء الفلل الفردية." data-en="Land plots designated for building individual villas.">Land plots designated for building individual villas.</p></div>
-      <div class="cm"><div class="n">02</div><h3 data-ar="سكني — عمائر سكنية" data-en="Apartment Building Residential">Apartment Building Residential</h3><p data-ar="قطع أراضٍ مخصصة للعمائر السكنية." data-en="Land plots designated for residential apartment buildings.">Land plots designated for residential apartment buildings.</p></div>
-      <div class="cm"><div class="n">03</div><h3 data-ar="تجاري" data-en="Commercial">Commercial</h3><p data-ar="قطع أراضٍ مخصصة للاستخدامات التجارية والخدمية." data-en="Plots designated for commercial and service uses.">Plots designated for commercial and service uses.</p></div>
+      <div class="cm"><div class="n">01</div><h3 data-ar="متسقة مع رؤية 2030" data-en="Aligned with Vision 2030">متسقة مع رؤية 2030</h3><p data-ar="تتسق خطط التوسع العمراني لمدينة الرياض مع رؤية المملكة 2030، فالاستثمارات الكبرى ساهمت في تيسير الوصول إلى قلب العاصمة بمشروعات نقل وبنية تحتية متطورة." data-en="Riyadh's urban expansion plans align with Saudi Vision 2030; major investments have eased access to the heart of the capital through advanced transport and infrastructure projects.">تتسق خطط التوسع العمراني لمدينة الرياض مع رؤية المملكة 2030، فالاستثمارات الكبرى ساهمت في تيسير الوصول إلى قلب العاصمة بمشروعات نقل وبنية تحتية متطورة.</p></div>
+      <div class="cm"><div class="n">02</div><h3 data-ar="بجوار مشاريع عالمية" data-en="Beside world-class projects">بجوار مشاريع عالمية</h3><p data-ar="يجاور المخطط القدية وحديقة الأمير محمد بن سلمان وحدائق الملك عبدالله العالمية وقاعدة الملك سلمان الجوية وحلبة ديراب." data-en="The plan sits beside Qiddiya, Prince Mohammed bin Salman Park, King Abdullah World Park, King Salman Air Base and the Dirab track.">يجاور المخطط القدية وحديقة الأمير محمد بن سلمان وحدائق الملك عبدالله العالمية وقاعدة الملك سلمان الجوية وحلبة ديراب.</p></div>
+      <div class="cm"><div class="n">03</div><h3 data-ar="مخططات معتمدة" data-en="Approved plans">مخططات معتمدة</h3><p data-ar="7 مخططات معتمدة من أمانة مدينة الرياض، تطرحها ثمارية بالشراكة مع شركة العربي المالية — الذراع الاستثماري للبنك العربي الوطني." data-en="Seven plans approved by the Riyadh Municipality, offered by Thimarya in partnership with Al Arabi Financial Company — the investment arm of Arab National Bank.">7 مخططات معتمدة من أمانة مدينة الرياض، تطرحها ثمارية بالشراكة مع شركة العربي المالية — الذراع الاستثماري للبنك العربي الوطني.</p></div>
     </div>
   </div>
 </section>
 
-<!-- ============ OFFERINGS ============ -->
-<section id="offerings">
+<!-- ============ LAND OPTIONS ============ -->
+<section id="lands">
   <div class="wrap">
     <div class="sec-head reveal" style="text-align:center;margin-inline:auto">
-      <span class="eyebrow" style="justify-content:center" data-ar="داخل المها" data-en="Inside Al Maha">Inside Al Maha</span>
-      <h2 class="h2" style="margin:1.3rem auto;max-width:22ch" data-ar="مخطط عمراني متكامل يضع جودة الحياة أولًا." data-en="An integrated urban plan built around quality of life.">An integrated urban plan built around quality of life.</h2>
+      <span class="eyebrow" style="justify-content:center" data-ar="خيارات الأراضي" data-en="Land Options">خيارات الأراضي</span>
+      <h2 class="h2" style="margin:1.3rem auto;max-width:22ch" data-ar="حلول سكنية وتجارية في وجهة واحدة." data-en="Residential and commercial plots in one destination.">حلول سكنية وتجارية في وجهة واحدة.</h2>
+      <p class="lead" style="margin-inline:auto" data-ar="يتفرد الموقع بخدمات ومرافق تستحوذ على 60% من المساحة الإجمالية للمخططات." data-en="The site is distinguished by services and facilities occupying 60% of the total plan area.">يتفرد الموقع بخدمات ومرافق تستحوذ على 60% من المساحة الإجمالية للمخططات.</p>
     </div>
-    <div class="offer-grid">
-      <article class="offer-card reveal">
-        <div class="offer-img"><img src="assets/9-min-1.jpg" alt="Al Maha community — the boulevard" loading="lazy" decoding="async" /></div>
+    <div class="land-grid">
+      <article class="land-card reveal">
+        <div class="offer-img"><img src="assets/brochure/villa-detached.jpg" alt="فلل المها" loading="lazy" decoding="async" /></div>
         <div class="offer-body">
-          <span class="offer-kicker" data-ar="المراكز التجارية والترفيهية" data-en="Commercial and Entertainment Malls">Commercial and Entertainment Malls</span>
-          <h3 data-ar="الجادة الرئيسية" data-en="Main Avenue">Main Avenue</h3>
-          <p data-ar="تمثّل الجادة العمود الفقري لمخطط المها؛ فهي المحور المركزي الذي يجمع كل المباني ليأخذ الزائر في تجربة فريدة تمتد على 4 كم بعرض 150 متر وبمساحة إجمالية تقدّر بنحو 6,000,000 م²، بين شارعين بعرض 36 متر. وتوفّر كامل الخدمات: مراكز تسوق ومطاعم ومقاهي ومتاجر فاخرة وصيدليات ومرافق ترفيهية وحدائق ومناطق جلوس وغيرها… بتصميم عصري يتميّز بالمساحات الواسعة وسلاسة الحركة والانتقال بين البلوكات، إضافة إلى مواقف مخصصة للمناطق التجارية والخدمية والترفيهية." data-en="The boulevard serves as the backbone of the Al Maha master plan; it is the central axis of the project that brings together all the structures to take visitors on a one-of-a-kind experience stretching over 4km and with a width of 150 meters in width and a total area estimated at approximately 6,000,000 square meters. It is situated between two 36-meter-wide streets and offers a full range of services: malls, restaurants, cafes, luxury stores, pharmacies, entertainment venues, parks, seating areas, and more… All are designed in a modern style featuring vast spaces, fluid movement, and seamless navigation between the blocks, in addition to dedicated parking for commercial, service, and entertainment areas.">The boulevard serves as the backbone of the Al Maha master plan; it is the central axis of the project that brings together all the structures to take visitors on a one-of-a-kind experience stretching over 4km and with a width of 150 meters in width and a total area estimated at approximately 6,000,000 square meters. It is situated between two 36-meter-wide streets and offers a full range of services: malls, restaurants, cafes, luxury stores, pharmacies, entertainment venues, parks, seating areas, and more… All are designed in a modern style featuring vast spaces, fluid movement, and seamless navigation between the blocks, in addition to dedicated parking for commercial, service, and entertainment areas.</p>
-          <div class="offer-meta" data-ar="4 كم · عرض 150 م · نحو 6,000,000 م²" data-en="4 km · 150 m wide · ~6,000,000 m²">4 km · 150 m wide · ~6,000,000 m²</div>
+          <span class="offer-kicker" data-ar="سكني" data-en="Residential">سكني</span>
+          <h3 data-ar="الأراضي السكنية" data-en="Residential Plots">الأراضي السكنية</h3>
+          <p data-ar="فلل فردية ومتلاصقة على أراضٍ بمساحات مختلفة، وقطع مخصصة للعمائر السكنية." data-en="Detached and attached villas on plots of varying sizes, plus plots for residential apartment buildings.">فلل فردية ومتلاصقة على أراضٍ بمساحات مختلفة، وقطع مخصصة للعمائر السكنية.</p>
+          <ul>
+            <li><span data-ar="قطع الفلل" data-en="Villa plots">قطع الفلل</span><b>11,000</b></li>
+            <li><span data-ar="مساحة الفلل" data-en="Villa area">مساحة الفلل</span><b data-ar="3,235,272 م²" data-en="3,235,272 m²">3,235,272 م²</b></li>
+            <li><span data-ar="قطع العمائر" data-en="Apartment plots">قطع العمائر</span><b>1,245</b></li>
+            <li><span data-ar="مساحة العمائر" data-en="Apartment area">مساحة العمائر</span><b data-ar="976,058 م²" data-en="976,058 m²">976,058 م²</b></li>
+          </ul>
         </div>
       </article>
-      <article class="offer-card reveal">
-        <div class="offer-img"><img src="assets/6-min-1024x592.webp" alt="Wadi Al Maha" loading="lazy" decoding="async" /></div>
+      <article class="land-card reveal">
+        <div class="offer-img"><img src="assets/brochure/jadah-street.jpg" alt="الجادة" loading="lazy" decoding="async" /></div>
         <div class="offer-body">
-          <span class="offer-kicker" data-ar="المناطق الطبيعية والأودية" data-en="Natural Areas and Valleys">Natural Areas and Valleys</span>
-          <h3 data-ar="وادي المها" data-en="Wadi al-Maha">Wadi al-Maha</h3>
-          <p data-ar="يتميّز المشروع بموقعه الفريد على هضبة تحيط بها أودية واسعة. ويتمحور تطوير عمراني ضخم حول شوارع بعرض يتراوح بين 15 و60 متر، مع كامل الخدمات: مراكز تسوق ومطاعم ومقاهي ومتاجر فاخرة وصيدليات وحدائق وغيرها… ومما يعزّز راحة السكان المضمار، وهو مساحة رحبة للمشي وممارسة الأنشطة البدنية ومتنفّس ترفيهي للأطفال والكبار على حد سواء." data-en="The development is distinguished by its unique location on a plateau surrounded by wide valleys. A massive urban development is centered around streets ranging from 15 to 60 meters, with a full range of services: malls, restaurants, cafes, luxury stores, pharmacies, parks, and more… What further enhances residents' comfort is the track, a vast space for walking and an ideal place for physical activities, serving as a recreational area for children and adults alike.">The development is distinguished by its unique location on a plateau surrounded by wide valleys. A massive urban development is centered around streets ranging from 15 to 60 meters, with a full range of services: malls, restaurants, cafes, luxury stores, pharmacies, parks, and more… What further enhances residents' comfort is the track, a vast space for walking and an ideal place for physical activities, serving as a recreational area for children and adults alike.</p>
-          <div class="offer-meta" data-ar="هضبة تحيط بها أودية · شوارع من 15 إلى 60 م" data-en="Plateau with wide valleys · streets 15–60 m">Plateau with wide valleys · streets 15–60 m</div>
+          <span class="offer-kicker" data-ar="تجاري" data-en="Commercial">تجاري</span>
+          <h3 data-ar="الأراضي التجارية" data-en="Commercial Plots">الأراضي التجارية</h3>
+          <p data-ar="قطع تجارية على امتداد الجادة والمحاور الرئيسية: مولات ومطاعم ومقاهٍ ومتاجر فاخرة وصيدليات وفضاءات ترفيه." data-en="Commercial plots along the boulevard and main axes: malls, restaurants, cafés, luxury stores, pharmacies and entertainment spaces.">قطع تجارية على امتداد الجادة والمحاور الرئيسية: مولات ومطاعم ومقاهٍ ومتاجر فاخرة وصيدليات وفضاءات ترفيه.</p>
+          <ul>
+            <li><span data-ar="القطع التجارية" data-en="Commercial plots">القطع التجارية</span><b>550</b></li>
+            <li><span data-ar="المساحة" data-en="Area">المساحة</span><b data-ar="752,667 م²" data-en="752,667 m²">752,667 م²</b></li>
+            <li><span data-ar="الجادة" data-en="Boulevard">الجادة</span><b data-ar="4 كم · عرض 150 م" data-en="4 km · 150 m wide">4 كم · عرض 150 م</b></li>
+          </ul>
         </div>
       </article>
-      <article class="offer-card reveal">
-        <div class="offer-img"><img src="assets/7-min-1.jpg" alt="The Track" loading="lazy" decoding="async" /></div>
+      <article class="land-card reveal">
+        <div class="offer-img"><img src="assets/brochure/wadi-park.jpg" alt="مرافق المجتمع" loading="lazy" decoding="async" /></div>
         <div class="offer-body">
-          <span class="offer-kicker" data-ar="المرافق الرياضية والصحية" data-en="Sports and Wellness Facilities">Sports and Wellness Facilities</span>
-          <h3 data-ar="المضمار" data-en="The Track">The Track</h3>
-          <p data-ar="المضمار ليس مجرد مكان للجري أو المشي؛ بل هو منشأة رياضية متكاملة صُمّمت لتعزيز الصحة والعافية في حياتنا اليومية. ففي عالم اليوم سريع الإيقاع، حيث تزداد أهمية النشاط البدني، يُعدّ وجود مثل هذا المرفق الحيوي أمرًا أساسيًا لتشجيع الناس على تبنّي أنماط حياة أكثر صحة." data-en="The track is more than just a place to run or walk; it is a comprehensive sports facility designed to promote health and well-being in our daily lives. In today's fast-paced world, where physical activity is becoming increasingly important, having such a vital facility is essential for encouraging people to adopt healthier lifestyles.">The track is more than just a place to run or walk; it is a comprehensive sports facility designed to promote health and well-being in our daily lives. In today's fast-paced world, where physical activity is becoming increasingly important, having such a vital facility is essential for encouraging people to adopt healthier lifestyles.</p>
-          <div class="offer-meta" data-ar="منشأة رياضية متكاملة" data-en="A comprehensive sports facility">A comprehensive sports facility</div>
+          <span class="offer-kicker" data-ar="مرافق" data-en="Community">مرافق</span>
+          <h3 data-ar="مرافق المجتمع" data-en="Community Facilities">مرافق المجتمع</h3>
+          <p data-ar="مدارس ومساجد وحدائق وملاعب ومواقف موزعة لخدمة جميع المناطق السكنية." data-en="Schools, mosques, gardens, playgrounds and parking distributed to serve all residential zones.">مدارس ومساجد وحدائق وملاعب ومواقف موزعة لخدمة جميع المناطق السكنية.</p>
+          <ul>
+            <li><span data-ar="مرافق تعليمية" data-en="Schools">مرافق تعليمية</span><b>28</b></li>
+            <li><span data-ar="مساجد" data-en="Mosques">مساجد</span><b>49</b></li>
+            <li><span data-ar="حدائق" data-en="Gardens">حدائق</span><b>54</b></li>
+            <li><span data-ar="ملاعب" data-en="Playgrounds">ملاعب</span><b>26</b></li>
+            <li><span data-ar="مواقف" data-en="Parking">مواقف</span><b>108</b></li>
+          </ul>
         </div>
       </article>
     </div>
   </div>
 </section>
 
-<!-- ============ FEATURES ============ -->
+<!-- ============ MASTER PLAN ============ -->
+<section id="masterplan">
+  <div class="wrap">
+    <div class="sec-head reveal" style="text-align:center;margin-inline:auto">
+      <span class="eyebrow" style="justify-content:center" data-ar="المخطط العام" data-en="Master Plan">المخطط العام</span>
+      <h2 class="h2" style="margin:1.3rem auto;max-width:22ch" data-ar="المخطط العام لمدينة المها." data-en="The Al Maha master plan.">المخطط العام لمدينة المها.</h2>
+      <p class="lead" style="margin-inline:auto" data-ar="استعرض الاستخدامات: السكني والتجاري والتعليمي والجادة والوادي، وكبّر أي مخطط لرؤية التفاصيل." data-en="Browse the land uses — residential, commercial, education, the boulevard and the wadi — and zoom any plan to see the detail.">استعرض الاستخدامات: السكني والتجاري والتعليمي والجادة والوادي، وكبّر أي مخطط لرؤية التفاصيل.</p>
+    </div>
+    <div class="fp-explorer reveal">
+      <div class="fp-rail" id="planTabs"></div>
+      <div class="fp-stage">
+        <div class="fp-stagehead">
+          <div class="fp-title">
+            <span class="fp-kicker" id="fpKicker"></span>
+            <h3 class="fp-name" id="fpName"></h3>
+          </div>
+          <button class="fp-zoom" id="planZoom" type="button" aria-label="Zoom plan"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3M11 8v6M8 11h6"/></svg></button>
+        </div>
+        <div class="plan-viewer" id="planViewer"><img id="planImg" src="assets/brochure/masterplan-3d.jpg" alt="" /></div>
+        <div class="plan-desc" id="planDesc"></div>
+        <div class="fp-specs">
+          <div class="fp-spec"><span class="fp-spec-k" id="specK1"></span><span class="fp-spec-v" id="specV1"></span></div>
+          <div class="fp-spec"><span class="fp-spec-k" id="specK2"></span><span class="fp-spec-v" id="specV2"></span></div>
+          <div class="fp-spec"><span class="fp-spec-k" id="specK3"></span><span class="fp-spec-v" id="specV3"></span></div>
+        </div>
+      </div>
+    </div>
+    <div class="lu reveal" id="luTable"></div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section id="services" class="community">
+  <div class="wrap">
+    <div class="sec-head reveal" style="text-align:center;margin-inline:auto">
+      <span class="eyebrow" style="justify-content:center" data-ar="الخدمات" data-en="Services">الخدمات</span>
+      <h2 class="h2" style="margin:1.3rem auto;max-width:24ch" data-ar="بنية تحتية متكاملة تخدم عشرات الآلاف من الأسر السعودية." data-en="Integrated infrastructure serving tens of thousands of Saudi families.">بنية تحتية متكاملة تخدم عشرات الآلاف من الأسر السعودية.</h2>
+    </div>
+    <div class="svc-row">
+      <div class="svc reveal"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 21L9 3M19 21L15 3M12 4v3M12 11v3M12 18v3"/></svg></span><span data-ar="شبكة طرقات" data-en="Road network">شبكة طرقات</span></div>
+      <div class="svc reveal"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 12v9M8 21h8"/><circle cx="12" cy="10" r="2"/><path d="M7.5 5.5a6.4 6.4 0 000 9M16.5 5.5a6.4 6.4 0 010 9"/></svg></span><span data-ar="شبكة اتصالات" data-en="Telecom network">شبكة اتصالات</span></div>
+      <div class="svc reveal"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3s6 6.5 6 11a6 6 0 01-12 0c0-4.5 6-11 6-11z"/></svg></span><span data-ar="شبكة مياه" data-en="Water network">شبكة مياه</span></div>
+      <div class="svc reveal"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L5 14h6l-1 8 8-12h-6z"/></svg></span><span data-ar="شبكة كهرباء" data-en="Electricity network">شبكة كهرباء</span></div>
+      <div class="svc reveal"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11.5V17c0 1.5 3 3 6 3s6-1.5 6-3v-5.5"/></svg></span><span><span data-ar="مرافق تعليمية" data-en="Schools">مرافق تعليمية</span><small>28</small></span></div>
+      <div class="svc reveal"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 21V11a8 8 0 0116 0v10M2 21h20M12 3V1M9 21v-5a3 3 0 016 0v5"/></svg></span><span><span data-ar="مساجد" data-en="Mosques">مساجد</span><small>49</small></span></div>
+      <div class="svc reveal"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21v-7"/><path d="M12 14c-4 0-7-3-7-8 5 0 7 3 7 8zM12 14c0-4 2-7 7-7 0 5-3 7-7 7z"/></svg></span><span><span data-ar="حدائق" data-en="Gardens">حدائق</span><small>54</small></span></div>
+      <div class="svc reveal"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M9.5 17V7h3.5a3 3 0 010 6H9.5"/></svg></span><span><span data-ar="مواقف" data-en="Parking">مواقف</span><small>108</small></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY AL MAHA ============ -->
 <section id="features">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="eyebrow" data-ar="الخدمات" data-en="Services">Services</span>
-      <h2 class="h2" data-ar="تكامل الخدمات داخل المها." data-en="Comprehensive service integration.">Comprehensive service integration.</h2>
-      <p class="feat2-sub" data-ar="صُمّمت المها لتكون وجهة متكاملة، مع تركّز مراكز التسوق والخدمات الأساسية على امتداد «الجادة» العمود الفقري للمدينة." data-en="Al Maha City was designed to be a fully integrated destination, with shopping centers and essential services concentrated along 'Al Jadah' (the boulevard), the backbone of the city.">Al Maha City was designed to be a fully integrated destination, with shopping centers and essential services concentrated along 'Al Jadah' (the boulevard), the backbone of the city.</p>
+      <span class="eyebrow" data-ar="لماذا المها" data-en="Why Al Maha">لماذا المها</span>
+      <h2 class="h2" data-ar="لماذا مخطط المها؟" data-en="Why choose Al Maha?">لماذا مخطط المها؟</h2>
+      <p class="feat2-sub" data-ar="بفكر مختلف تواكب ثمارية الرؤية الطموحة للمملكة، بمفهوم يعتمد على أسس علمية ورؤية متكاملة واستشراف حقيقي للمستقبل." data-en="With a different mindset, Thimarya keeps pace with the Kingdom's ambitious vision — a concept built on scientific foundations, an integrated view and genuine foresight.">بفكر مختلف تواكب ثمارية الرؤية الطموحة للمملكة، بمفهوم يعتمد على أسس علمية ورؤية متكاملة واستشراف حقيقي للمستقبل.</p>
     </div>
     <div class="feat-grid2">
-      <article class="feat-cell reveal">
-        <span class="feat-num">01</span>
-        <div class="feat-top"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 9l1.6-4.5h12.8L20 9M4 9v10h16V9M4 9h16M9.5 19v-5h5v5"/></svg></span><h3 data-ar="مراكز تجارية وترفيهية" data-en="Commercial & Entertainment">Commercial & Entertainment</h3></div>
-        <p data-ar="عبر «الجادة»: مراكز تسوق ومطاعم ومقاهي ومتاجر تجزئة متنوعة." data-en="Via 'Al Jadah' (the boulevard), which hosts malls, restaurants, cafés, and various retail stores.">Via 'Al Jadah' (the boulevard), which hosts malls, restaurants, cafés, and various retail stores.</p>
+      <article class="feat-cell reveal"><span class="feat-num">01</span>
+        <div class="feat-top"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 17l6-6 4 4 8-8"/><path d="M21 7v5h-5"/></svg></span><h3 data-ar="موقع نمو" data-en="A growth location">موقع نمو</h3></div>
+        <p data-ar="امتداد جغرافي وعمراني غرب العاصمة، بجوار أضخم مشاريع وجهات الترفيه العالمية." data-en="A geographic and urban extension west of the capital, beside the biggest global entertainment destinations.">امتداد جغرافي وعمراني غرب العاصمة، بجوار أضخم مشاريع وجهات الترفيه العالمية.</p></article>
+      <article class="feat-cell reveal"><span class="feat-num">02</span>
+        <div class="feat-top"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 3v9l6.4 6.4"/></svg></span><h3 data-ar="60% مرافق وخدمات" data-en="60% facilities & services">60% مرافق وخدمات</h3></div>
+        <p data-ar="خدمات ومرافق تستحوذ على 60% من المساحة الإجمالية للمخططات." data-en="Services and facilities take 60% of the total plan area.">خدمات ومرافق تستحوذ على 60% من المساحة الإجمالية للمخططات.</p></article>
+      <article class="feat-cell reveal"><span class="feat-num">03</span>
+        <div class="feat-top"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 2v2M15 2v2M9 20v2M15 20v2M2 9h2M2 15h2M20 9h2M20 15h2"/></svg></span><h3 data-ar="بنية تحتية متكاملة" data-en="Integrated infrastructure">بنية تحتية متكاملة</h3></div>
+        <p data-ar="شبكات طرق واتصالات ومياه وكهرباء تخدم عشرات الآلاف من الأسر." data-en="Road, telecom, water and electricity networks serving tens of thousands of families.">شبكات طرق واتصالات ومياه وكهرباء تخدم عشرات الآلاف من الأسر.</p></article>
+      <article class="feat-cell reveal"><span class="feat-num">04</span>
+        <div class="feat-top"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="3"/><path d="M4 21c0-4 3.5-7 8-7s8 3 8 7"/><path d="M18 4a3 3 0 010 6"/></svg></span><h3 data-ar="مجتمع ينبض بالحياة" data-en="A community full of life">مجتمع ينبض بالحياة</h3></div>
+        <p data-ar="جادة بطول 4 كم، ومدارس ومساجد وحدائق، ومضمار للمشي والأنشطة البدنية." data-en="A 4 km boulevard, schools, mosques, gardens and a track for walking and physical activity.">جادة بطول 4 كم، ومدارس ومساجد وحدائق، ومضمار للمشي والأنشطة البدنية.</p></article>
+      <article class="feat-cell reveal"><span class="feat-num">05</span>
+        <div class="feat-top"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21s7-6.2 7-11.5A7 7 0 005 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span><h3 data-ar="قريب من المعالم" data-en="Close to landmarks">قريب من المعالم</h3></div>
+        <p data-ar="وسط الرياض خلال 20 دقيقة، والقدية خلال 34 دقيقة، وحديقة الأمير محمد بن سلمان خلال 10 دقائق." data-en="Downtown Riyadh in 20 minutes, Qiddiya in 34 minutes and Prince Mohammed bin Salman Park in 10.">وسط الرياض خلال 20 دقيقة، والقدية خلال 34 دقيقة، وحديقة الأمير محمد بن سلمان خلال 10 دقائق.</p></article>
+      <article class="feat-cell reveal"><span class="feat-num">06</span>
+        <div class="feat-top"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l2.5 6.5L21 9l-5 4.5L17.5 21 12 17l-5.5 4L8 13.5 3 9l6.5-.5z"/></svg></span><h3 data-ar="مخططات معتمدة" data-en="Approved plans">مخططات معتمدة</h3></div>
+        <p data-ar="7 مخططات معتمدة من أمانة مدينة الرياض، تواكب رؤية المملكة 2030." data-en="Seven plans approved by the Riyadh Municipality, in step with Saudi Vision 2030.">7 مخططات معتمدة من أمانة مدينة الرياض، تواكب رؤية المملكة 2030.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HIGHLIGHTS ============ -->
+<section id="offerings">
+  <div class="wrap">
+    <div class="sec-head reveal" style="text-align:center;margin-inline:auto">
+      <span class="eyebrow" style="justify-content:center" data-ar="داخل المها" data-en="Inside Al Maha">داخل المها</span>
+      <h2 class="h2" style="margin:1.3rem auto;max-width:22ch" data-ar="مخطط عمراني متكامل يضع جودة الحياة أولًا." data-en="An integrated urban plan built around quality of life.">مخطط عمراني متكامل يضع جودة الحياة أولًا.</h2>
+    </div>
+    <div class="offer-grid">
+      <article class="offer-card reveal">
+        <div class="offer-img"><img src="assets/9-min-1.jpg" alt="الجادة" loading="lazy" decoding="async" /></div>
+        <div class="offer-body">
+          <span class="offer-kicker" data-ar="المراكز التجارية والترفيهية" data-en="Commercial and Entertainment Malls">المراكز التجارية والترفيهية</span>
+          <h3 data-ar="الجادة (البوليفارد)" data-en="Main Avenue">الجادة (البوليفارد)</h3>
+          <p data-ar="تمثّل الجادة العمود الفقري لمخطط المها؛ فهي المحور المركزي الذي يجمع كل المباني ليأخذ الزائر في تجربة فريدة تمتد على 4 كم بعرض 150 متر وبمساحة إجمالية تقدّر بنحو 6,000,000 م²، بين شارعين بعرض 36 متر. وتوفّر كامل الخدمات: مراكز تسوق ومطاعم ومقاهي ومتاجر فاخرة وصيدليات ومرافق ترفيهية وحدائق ومناطق جلوس وغيرها… بتصميم عصري يتميّز بالمساحات الواسعة وسلاسة الحركة والانتقال بين البلوكات، إضافة إلى مواقف مخصصة للمناطق التجارية والخدمية والترفيهية." data-en="The boulevard serves as the backbone of the Al Maha master plan; it is the central axis of the project that brings together all the structures to take visitors on a one-of-a-kind experience stretching over 4km and with a width of 150 meters in width and a total area estimated at approximately 6,000,000 square meters. It is situated between two 36-meter-wide streets and offers a full range of services: malls, restaurants, cafes, luxury stores, pharmacies, entertainment venues, parks, seating areas, and more… All are designed in a modern style featuring vast spaces, fluid movement, and seamless navigation between the blocks, in addition to dedicated parking for commercial, service, and entertainment areas.">تمثّل الجادة العمود الفقري لمخطط المها؛ فهي المحور المركزي الذي يجمع كل المباني ليأخذ الزائر في تجربة فريدة تمتد على 4 كم بعرض 150 متر وبمساحة إجمالية تقدّر بنحو 6,000,000 م²، بين شارعين بعرض 36 متر. وتوفّر كامل الخدمات: مراكز تسوق ومطاعم ومقاهي ومتاجر فاخرة وصيدليات ومرافق ترفيهية وحدائق ومناطق جلوس وغيرها… بتصميم عصري يتميّز بالمساحات الواسعة وسلاسة الحركة والانتقال بين البلوكات، إضافة إلى مواقف مخصصة للمناطق التجارية والخدمية والترفيهية.</p>
+          <div class="offer-meta" data-ar="4 كم · عرض 150 م · نحو 6,000,000 م²" data-en="4 km · 150 m wide · ~6,000,000 m²">4 كم · عرض 150 م · نحو 6,000,000 م²</div>
+        </div>
       </article>
-      <article class="feat-cell reveal">
-        <span class="feat-num">02</span>
-        <div class="feat-top"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11.5V17c0 1.5 3 3 6 3s6-1.5 6-3v-5.5"/></svg></span><h3 data-ar="مرافق تعليمية ودينية" data-en="Educational & Religious">Educational & Religious</h3></div>
-        <p data-ar="مدارس ومساجد موزعة لخدمة جميع المناطق السكنية." data-en="Schools and mosques distributed to serve all residential zones.">Schools and mosques distributed to serve all residential zones.</p>
+      <article class="offer-card reveal">
+        <div class="offer-img"><img src="assets/6-min-1024x592.webp" alt="الوادي" loading="lazy" decoding="async" /></div>
+        <div class="offer-body">
+          <span class="offer-kicker" data-ar="المناطق الطبيعية والأودية" data-en="Natural Areas and Valleys">المناطق الطبيعية والأودية</span>
+          <h3 data-ar="الوادي — روعة المكان" data-en="Wadi al-Maha">الوادي — روعة المكان</h3>
+          <p data-ar="يتميّز المخطط بموقعه الفريد على هضبة محاطة بوديان واسعة. مخطط عمراني ضخم تتوسطه شوارع تراوحت بين 15 و60 متر، متكامل الخدمات: مولات ومطاعم ومقاهي ومتاجر فاخرة وصيدليات وحدائق وغيرها… أما ما يعزّز راحة السكان فهو المضمار، مساحة ضخمة للمشي ومكان مثالي للأنشطة البدنية ومتنفس للأطفال والكبار على حد سواء." data-en="The development is distinguished by its unique location on a plateau surrounded by wide valleys. A massive urban development is centered around streets ranging from 15 to 60 meters, with a full range of services: malls, restaurants, cafes, luxury stores, pharmacies, parks, and more… What further enhances residents' comfort is the track, a vast space for walking and an ideal place for physical activities, serving as a recreational area for children and adults alike.">يتميّز المخطط بموقعه الفريد على هضبة محاطة بوديان واسعة. مخطط عمراني ضخم تتوسطه شوارع تراوحت بين 15 و60 متر، متكامل الخدمات: مولات ومطاعم ومقاهي ومتاجر فاخرة وصيدليات وحدائق وغيرها… أما ما يعزّز راحة السكان فهو المضمار، مساحة ضخمة للمشي ومكان مثالي للأنشطة البدنية ومتنفس للأطفال والكبار على حد سواء.</p>
+          <div class="offer-meta" data-ar="هضبة محاطة بأودية · شوارع من 15 إلى 60 م" data-en="Plateau with wide valleys · streets 15–60 m">هضبة محاطة بأودية · شوارع من 15 إلى 60 م</div>
+        </div>
       </article>
-      <article class="feat-cell reveal">
-        <span class="feat-num">03</span>
-        <div class="feat-top"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21v-7"/><path d="M12 14c-4 0-7-3-7-8 5 0 7 3 7 8zM12 14c0-4 2-7 7-7 0 5-3 7-7 7z"/></svg></span><h3 data-ar="مساحات خضراء ورياضية" data-en="Green & Sports Spaces">Green & Sports Spaces</h3></div>
-        <p data-ar="حدائق عامة ومضمار مخصص للمشي والأنشطة البدنية." data-en="Public parks and a dedicated track for walking and physical activities.">Public parks and a dedicated track for walking and physical activities.</p>
-      </article>
-      <article class="feat-cell reveal">
-        <span class="feat-num">04</span>
-        <div class="feat-top"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 2v2M15 2v2M9 20v2M15 20v2M2 9h2M2 15h2M20 9h2M20 15h2"/></svg></span><h3 data-ar="بنية تحتية متكاملة" data-en="Integrated Infrastructure">Integrated Infrastructure</h3></div>
-        <p data-ar="شبكات متكاملة للمياه والكهرباء والاتصالات، إضافة إلى مواقف مخصصة." data-en="Comprehensive water, electricity, and telecommunications networks, plus dedicated parking spaces.">Comprehensive water, electricity, and telecommunications networks, plus dedicated parking spaces.</p>
-      </article>
-      <article class="feat-cell reveal">
-        <span class="feat-num">05</span>
-        <div class="feat-top"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 3v9l6.4 6.4"/></svg></span><h3 data-ar="أكثر من 60% للمرافق العامة" data-en="60%+ Public Space">60%+ Public Space</h3></div>
-        <p data-ar="خُصّص أكثر من 60% من مساحة المشروع للمرافق العامة والخدمات والمساحات المفتوحة." data-en="More than 60% of the project's area has been allocated to public facilities, services, and open spaces.">More than 60% of the project's area has been allocated to public facilities, services, and open spaces.</p>
-      </article>
-      <article class="feat-cell reveal">
-        <span class="feat-num">06</span>
-        <div class="feat-top"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21s7-6.2 7-11.5A7 7 0 005 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span><h3 data-ar="موقع استراتيجي مجاور" data-en="Prime Adjacency">Prime Adjacency</h3></div>
-        <p data-ar="بجوار القدية ومتنزه الأمير محمد بن سلمان، وملاصق لحي الحزم." data-en="Adjacent to Qiddiya and Prince Mohammed bin Salman Park, directly bordering the Al Hazm District.">Adjacent to Qiddiya and Prince Mohammed bin Salman Park, directly bordering the Al Hazm District.</p>
+      <article class="offer-card reveal">
+        <div class="offer-img"><img src="assets/7-min-1.jpg" alt="المضمار" loading="lazy" decoding="async" /></div>
+        <div class="offer-body">
+          <span class="offer-kicker" data-ar="المرافق الرياضية والصحية" data-en="Sports and Wellness Facilities">المرافق الرياضية والصحية</span>
+          <h3 data-ar="المضمار" data-en="The Track">المضمار</h3>
+          <p data-ar="المضمار ليس مجرد مكان للجري أو المشي؛ بل هو منشأة رياضية متكاملة صُمّمت لتعزيز الصحة والعافية في حياتنا اليومية: مساحات خضراء للاسترخاء وممرات للمشي والركض تنبض بالنشاط، إضافة إلى الأنشطة الأخرى." data-en="The track is more than just a place to run or walk; it is a comprehensive sports facility designed to promote health and well-being in our daily lives. In today's fast-paced world, where physical activity is becoming increasingly important, having such a vital facility is essential for encouraging people to adopt healthier lifestyles.">المضمار ليس مجرد مكان للجري أو المشي؛ بل هو منشأة رياضية متكاملة صُمّمت لتعزيز الصحة والعافية في حياتنا اليومية: مساحات خضراء للاسترخاء وممرات للمشي والركض تنبض بالنشاط، إضافة إلى الأنشطة الأخرى.</p>
+          <div class="offer-meta" data-ar="منشأة رياضية متكاملة" data-en="A comprehensive sports facility">منشأة رياضية متكاملة</div>
+        </div>
       </article>
     </div>
   </div>
 </section>
 
-<!-- ============ FAQ (explorer) ============ -->
+<!-- ============ VILLA MODELS ============ -->
+<section id="villas">
+  <div class="wrap">
+    <div class="sec-head reveal" style="text-align:center;margin-inline:auto">
+      <span class="eyebrow" style="justify-content:center" data-ar="نماذج البنية الفوقية" data-en="Sample Homes">نماذج البنية الفوقية</span>
+      <h2 class="h2" style="margin:1.3rem auto;max-width:22ch" data-ar="نماذج الفلل." data-en="Villa models.">نماذج الفلل.</h2>
+      <p class="lead" style="margin-inline:auto" data-ar="فلل قائمة على أراضٍ مساحاتها مختلفة وتصاميم خارجية فريدة واقتصادية." data-en="Villas on plots of different sizes, with unique and economical exterior designs.">فلل قائمة على أراضٍ مساحاتها مختلفة وتصاميم خارجية فريدة واقتصادية.</p>
+    </div>
+    <div class="fp-explorer reveal">
+      <div class="fp-rail" id="villaTabs"></div>
+      <div class="fp-stage">
+        <div class="fp-stagehead">
+          <div class="fp-title">
+            <span class="fp-kicker" id="vmKicker"></span>
+            <h3 class="fp-name" id="vmName"></h3>
+          </div>
+        </div>
+        <div class="vm-media" id="vmMedia"></div>
+        <div class="fp-specs" id="vmSpecs"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
 <section id="faq">
   <div class="wrap">
     <div class="sec-head reveal" style="text-align:center;margin-inline:auto">
-      <span class="eyebrow" style="justify-content:center" data-ar="الأسئلة الشائعة" data-en="FAQ">FAQ</span>
-      <h2 class="h2" style="margin:1.3rem auto;max-width:22ch" data-ar="الأسئلة الشائعة" data-en="Frequently asked questions (FAQ)">Frequently asked questions (FAQ)</h2>
+      <span class="eyebrow" style="justify-content:center" data-ar="الأسئلة الشائعة" data-en="FAQ">الأسئلة الشائعة</span>
+      <h2 class="h2" style="margin:1.3rem auto;max-width:22ch" data-ar="الأسئلة الشائعة" data-en="Frequently asked questions (FAQ)">الأسئلة الشائعة</h2>
     </div>
     <div class="fp-explorer reveal">
       <div class="fp-rail" id="faqTabs"></div>
       <div class="fp-stage">
         <div class="fp-stagehead">
           <div class="fp-title">
-            <span class="fp-kicker" id="faqKicker">FAQ</span>
+            <span class="fp-kicker" id="faqKicker"></span>
             <h3 class="fp-name" id="faqName"></h3>
           </div>
         </div>
@@ -202,19 +324,20 @@
 <section id="location">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="eyebrow" data-ar="الموقع الاستراتيجي" data-en="Strategic Location">Strategic Location</span>
-      <h2 class="h2" data-ar="وجهتك العقارية الأولى غرب العاصمة الرياض." data-en="Your Premier Real Estate Destination West of the Capital, Riyadh">Your Premier Real Estate Destination West of the Capital, Riyadh</h2>
-      <p class="lead" data-ar="تتمتع مدينة المها بموقع استراتيجي متميّز جنوب غرب الرياض، ملاصقةً لحي الحزم، في منطقة حيوية تربط أحياء غرب الرياض والمخططات الكبرى، ما يعزّز قيمة الموقع وسهولة الوصول إليه." data-en="Al Maha City enjoys a distinguished strategic location southwest of Riyadh, directly bordering the Al Hazm District. The project sits in a vital area connecting western Riyadh districts and major master plans, enhancing the location's value and accessibility.">Al Maha City enjoys a distinguished strategic location southwest of Riyadh, directly bordering the Al Hazm District. The project sits in a vital area connecting western Riyadh districts and major master plans, enhancing the location's value and accessibility.</p>
+      <span class="eyebrow" data-ar="الموقع الاستراتيجي" data-en="Strategic Location">الموقع الاستراتيجي</span>
+      <h2 class="h2" data-ar="وجهتك العقارية الأولى غرب العاصمة الرياض." data-en="Your Premier Real Estate Destination West of the Capital, Riyadh">وجهتك العقارية الأولى غرب العاصمة الرياض.</h2>
+      <p class="lead" data-ar="موقع استراتيجي غرب الرياض بمحاذاة أحياء الحزم والفواز وديراب وعكاظ، وبجوار القدية وحديقة الأمير محمد بن سلمان وحدائق الملك عبدالله وقاعدة الملك سلمان الجوية." data-en="A strategic location west of Riyadh, bordering the Al Hazm, Al Fawaz, Dirab and Okaz districts, beside Qiddiya, Prince Mohammed bin Salman Park, King Abdullah Parks and King Salman Air Base.">موقع استراتيجي غرب الرياض بمحاذاة أحياء الحزم والفواز وديراب وعكاظ، وبجوار القدية وحديقة الأمير محمد بن سلمان وحدائق الملك عبدالله وقاعدة الملك سلمان الجوية.</p>
     </div>
     <div class="loc-grid">
-      <div class="loc-map reveal"><img src="assets/almaha.webp" alt="Al Maha master plan — West Riyadh" loading="lazy" decoding="async" /></div>
+      <div class="loc-map reveal"><img src="assets/brochure/location-map.jpg" alt="موقع مخطط المها غرب الرياض" loading="lazy" decoding="async" /></div>
       <ul class="lm-list reveal">
-        <li><span class="lm-name"><span class="dot"></span><span data-ar="محطة حافلات ديراب" data-en="Dirab Bus Station">Dirab Bus Station</span></span><span class="lm-time" data-ar="5 دقائق" data-en="5 min">5 min</span></li>
-        <li><span class="lm-name"><span class="dot"></span><span data-ar="متنزه الأمير محمد بن سلمان" data-en="Prince Mohammed bin Salman Park">Prince Mohammed bin Salman Park</span></span><span class="lm-time" data-ar="10 دقائق" data-en="10 min">10 min</span></li>
-        <li><span class="lm-name"><span class="dot"></span><span data-ar="متنزهات الملك عبدالله" data-en="King Abdullah Parks">King Abdullah Parks</span></span><span class="lm-time" data-ar="15 دقيقة" data-en="15 min">15 min</span></li>
-        <li><span class="lm-name"><span class="dot"></span><span data-ar="وسط مدينة الرياض" data-en="Downtown Riyadh">Downtown Riyadh</span></span><span class="lm-time" data-ar="20 دقيقة" data-en="20 min">20 min</span></li>
-        <li><span class="lm-name"><span class="dot"></span><span data-ar="سيكس فلاجز" data-en="Six Flags Theme Park">Six Flags Theme Park</span></span><span class="lm-time" data-ar="30 دقيقة" data-en="30 min">30 min</span></li>
-        <li><span class="lm-name"><span class="dot"></span><span data-ar="القدية" data-en="Al-Qadiyah">Al-Qadiyah</span></span><span class="lm-time" data-ar="34 دقيقة" data-en="34 min">34 min</span></li>
+        <li><span class="lm-name"><span class="dot"></span><span data-ar="محطة ديراب للحافلات" data-en="Dirab Bus Station">محطة ديراب للحافلات</span></span><span class="lm-time" data-ar="5 دقائق" data-en="5 min">5 دقائق</span></li>
+        <li><span class="lm-name"><span class="dot"></span><span data-ar="قاعدة الملك سلمان الجوية" data-en="King Salman Air Base">قاعدة الملك سلمان الجوية</span></span><span class="lm-time" data-ar="10 دقائق" data-en="10 min">10 دقائق</span></li>
+        <li><span class="lm-name"><span class="dot"></span><span data-ar="حديقة الأمير محمد بن سلمان" data-en="Prince Mohammed bin Salman Park">حديقة الأمير محمد بن سلمان</span></span><span class="lm-time" data-ar="10 دقائق" data-en="10 min">10 دقائق</span></li>
+        <li><span class="lm-name"><span class="dot"></span><span data-ar="حديقة الملك عبدالله" data-en="King Abdullah Parks">حديقة الملك عبدالله</span></span><span class="lm-time" data-ar="15 دقيقة" data-en="15 min">15 دقيقة</span></li>
+        <li><span class="lm-name"><span class="dot"></span><span data-ar="وسط الرياض" data-en="Downtown Riyadh">وسط الرياض</span></span><span class="lm-time" data-ar="20 دقيقة" data-en="20 min">20 دقيقة</span></li>
+        <li><span class="lm-name"><span class="dot"></span><span data-ar="ملاهي سيكس فلاجز" data-en="Six Flags Theme Park">ملاهي سيكس فلاجز</span></span><span class="lm-time" data-ar="30 دقيقة" data-en="30 min">30 دقيقة</span></li>
+        <li><span class="lm-name"><span class="dot"></span><span data-ar="القدية" data-en="Al-Qadiyah">القدية</span></span><span class="lm-time" data-ar="34 دقيقة" data-en="34 min">34 دقيقة</span></li>
       </ul>
     </div>
   </div>
@@ -224,10 +347,10 @@
 <section class="stats" id="stats">
   <div class="wrap">
     <div class="stats-grid">
-      <div class="stat reveal"><div class="num" data-count="7">7</div><div class="lab" data-ar="مجتمعات سكنية نموذجية" data-en="Model residential developments">Model residential developments</div></div>
-      <div class="stat reveal"><div class="num" data-count="13" data-suffix="M+">13M+</div><div class="lab" data-ar="متر مربع" data-en="Square meters">Square meters</div></div>
-      <div class="stat reveal"><div class="num" data-count="25000" data-suffix="+">25,000+</div><div class="lab" data-ar="وحدة سكنية" data-en="Residential units">Residential units</div></div>
-      <div class="stat reveal"><div class="num" data-count="60" data-suffix="%+">60%+</div><div class="lab" data-ar="للمرافق العامة والمساحات المفتوحة" data-en="Public facilities & open spaces">Public facilities & open spaces</div></div>
+      <div class="stat reveal"><div class="num" data-count="7">7</div><div class="lab" data-ar="مخططات سكنية معتمدة" data-en="Approved residential plans">مخططات سكنية معتمدة</div></div>
+      <div class="stat reveal"><div class="num" data-count="13" data-suffix="M+">13M+</div><div class="lab" data-ar="متر مربع" data-en="Square meters">متر مربع</div></div>
+      <div class="stat reveal"><div class="num" data-count="25000" data-suffix="+">25,000+</div><div class="lab" data-ar="وحدة سكنية" data-en="Residential units">وحدة سكنية</div></div>
+      <div class="stat reveal"><div class="num" data-count="60" data-suffix="%">60%</div><div class="lab" data-ar="للمرافق والخدمات من المساحة" data-en="of the area for facilities & services">للمرافق والخدمات من المساحة</div></div>
     </div>
   </div>
 </section>
@@ -236,33 +359,46 @@
 <section id="gallery">
   <div class="wrap">
     <div class="sec-head reveal" style="text-align:center;margin-inline:auto;margin-bottom:0">
-      <span class="eyebrow" style="justify-content:center" data-ar="المعرض" data-en="Gallery">Gallery</span>
-      <h2 class="h2" style="margin:1.3rem auto 0;max-width:22ch" data-ar="مجتمع المها" data-en="Al Maha Community">Al Maha Community</h2>
+      <span class="eyebrow" style="justify-content:center" data-ar="المعرض" data-en="Gallery">المعرض</span>
+      <h2 class="h2" style="margin:1.3rem auto 0;max-width:22ch" data-ar="مجتمع المها" data-en="Al Maha Community">مجتمع المها</h2>
     </div>
-    <div class="gal-slider reveal" id="galSlider">
-      <div class="gal-track" id="galTrack"></div>
-    </div>
+    <div class="gal-slider reveal" id="galSlider"><div class="gal-track" id="galTrack"></div></div>
   </div>
 </section>
 
 <!-- ============ CONTACT ============ -->
 <section id="contact" class="contact">
   <div class="wrap">
-    <div class="sec-head contact-aside reveal" style="text-align:center;margin-inline:auto">
-      <span class="eyebrow" style="justify-content:center" data-ar="سجّل اهتمامك" data-en="Register Your Interest">Register Your Interest</span>
-      <h2 class="h2" style="margin:1.3rem auto;max-width:20ch" data-ar="احجز الآن!" data-en="Book now!">Book now!</h2>
-    </div>
-    <div class="form-shell reveal">
-      <form id="leadForm" novalidate>
-        <div class="form-grid">
-          <div class="field"><label data-ar="الاسم" data-en="Name">Name</label><input type="text" name="name" required data-ar-ph="الاسم" data-en-ph="Name" placeholder="Name" /></div>
-          <div class="field"><label data-ar="رقم الجوال" data-en="Phone">Phone</label><input type="tel" name="phone" required data-ar-ph="+966" data-en-ph="+966" placeholder="+966" /></div>
-          <div class="field"><label data-ar="البريد الإلكتروني" data-en="E-mail">E-mail</label><input type="email" name="email" required data-ar-ph="name@email.com" data-en-ph="name@email.com" placeholder="name@email.com" /></div>
-        </div>
-        <div class="form-foot">
-          <button type="submit" class="btn btn-primary"><span data-ar="إرسال" data-en="Send">Send</span> <span class="arr">→</span></button>
-        </div>
-      </form>
+    <div class="contact-split">
+      <div class="reveal">
+        <span class="eyebrow" data-ar="سجّل اهتمامك" data-en="Register your interest">سجّل اهتمامك</span>
+        <h2 class="h2" style="margin:1.1rem 0 1rem" data-ar="احجز الآن!" data-en="Book now!">احجز الآن!</h2>
+        <p class="lead" data-ar="أنشأنا مبنى للمبيعات بمدخل المشروع ليكون بوابتك التي تستقبلك وتوفر لك كل إجابات تساؤلاتك." data-en="We built a sales building at the project entrance — your gateway to a warm welcome and answers to every question.">أنشأنا مبنى للمبيعات بمدخل المشروع ليكون بوابتك التي تستقبلك وتوفر لك كل إجابات تساؤلاتك.</p>
+        <div class="sales-img" style="margin-top:1.6rem"><img src="assets/brochure/sales-building.png" alt="مبنى مبيعات المها" loading="lazy" decoding="async" /></div>
+        <div class="contact-lines"><a href="tel:920013532" dir="ltr">920013532</a><a href="mailto:info@thimarya.sa">info@thimarya.sa</a></div>
+      </div>
+      <div class="form-shell reveal">
+        <form id="leadForm" novalidate>
+          <div class="form-grid">
+            <div class="field"><label data-ar="الاسم" data-en="Name">الاسم</label><input type="text" name="name" required data-ar-ph="الاسم" data-en-ph="Name" placeholder="الاسم" /></div>
+            <div class="field"><label data-ar="رقم الجوال" data-en="Phone">رقم الجوال</label><input type="tel" name="phone" required data-ar-ph="+966" data-en-ph="+966" placeholder="+966" /></div>
+            <div class="field full"><label data-ar="البريد الإلكتروني" data-en="E-mail">البريد الإلكتروني</label><input type="email" name="email" required data-ar-ph="name@email.com" data-en-ph="name@email.com" placeholder="name@email.com" /></div>
+            <div class="field full"><label data-ar="نوع القطعة" data-en="Plot type">نوع القطعة</label>
+              <select name="plot">
+                <option value="" data-ar="اختر نوع القطعة" data-en="Select a plot type">اختر نوع القطعة</option>
+                <option value="villa" data-ar="سكني — فلل" data-en="Residential — villas">سكني — فلل</option>
+                <option value="apartment" data-ar="سكني — عمائر" data-en="Residential — apartment buildings">سكني — عمائر</option>
+                <option value="commercial" data-ar="تجاري" data-en="Commercial">تجاري</option>
+                <option value="advice" data-ar="أحتاج إلى استشارة" data-en="I need advice">أحتاج إلى استشارة</option>
+              </select></div>
+            <div class="field full"><label data-ar="رسالتك (اختياري)" data-en="Message (optional)">رسالتك (اختياري)</label><textarea name="message" data-ar-ph="أخبرنا بما تبحث عنه..." data-en-ph="Tell us what you're looking for..." placeholder="أخبرنا بما تبحث عنه..."></textarea></div>
+          </div>
+          <div class="form-foot">
+            <p class="form-note" data-ar="بياناتك سرّية ولن تُستخدم إلا للتواصل بخصوص مخطط المها." data-en="Your details are confidential and used only to contact you about Al Maha.">بياناتك سرّية ولن تُستخدم إلا للتواصل بخصوص مخطط المها.</p>
+            <button type="submit" class="btn btn-primary"><span data-ar="إرسال الطلب" data-en="Send request">إرسال الطلب</span> <span class="arr">→</span></button>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
 </section>
@@ -275,28 +411,28 @@
   <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="regModalTitle">
     <button class="modal-close" data-close aria-label="Close">&#10005;</button>
     <div class="modal-head">
-      <span class="eyebrow" data-ar="سجّل اهتمامك" data-en="Register Your Interest">Register Your Interest</span>
-      <h3 id="regModalTitle" data-ar="احجز الآن!" data-en="Book now!">Book now!</h3>
+      <span class="eyebrow" data-ar="سجّل اهتمامك" data-en="Register your interest">سجّل اهتمامك</span>
+      <h3 id="regModalTitle" data-ar="احجز الآن!" data-en="Book now!">احجز الآن!</h3>
     </div>
     <form id="modalForm" novalidate>
       <div class="form-grid">
-        <div class="field"><label data-ar="الاسم" data-en="Name">Name</label><input type="text" name="name" required data-ar-ph="الاسم" data-en-ph="Name" placeholder="Name" /></div>
-        <div class="field"><label data-ar="رقم الجوال" data-en="Phone">Phone</label><input type="tel" name="phone" required data-ar-ph="+966" data-en-ph="+966" placeholder="+966" /></div>
-        <div class="field"><label data-ar="البريد الإلكتروني" data-en="E-mail">E-mail</label><input type="email" name="email" required data-ar-ph="name@email.com" data-en-ph="name@email.com" placeholder="name@email.com" /></div>
+        <div class="field"><label data-ar="الاسم" data-en="Name">الاسم</label><input type="text" name="name" required data-ar-ph="الاسم" data-en-ph="Name" placeholder="الاسم" /></div>
+        <div class="field"><label data-ar="رقم الجوال" data-en="Phone">رقم الجوال</label><input type="tel" name="phone" required data-ar-ph="+966" data-en-ph="+966" placeholder="+966" /></div>
+        <div class="field"><label data-ar="البريد الإلكتروني" data-en="E-mail">البريد الإلكتروني</label><input type="email" name="email" required data-ar-ph="name@email.com" data-en-ph="name@email.com" placeholder="name@email.com" /></div>
       </div>
       <div class="form-foot">
         <span></span>
-        <button type="submit" class="btn btn-primary"><span data-ar="إرسال" data-en="Send">Send</span> <span class="arr">→</span></button>
+        <button type="submit" class="btn btn-primary"><span data-ar="إرسال الطلب" data-en="Send request">إرسال الطلب</span> <span class="arr">→</span></button>
       </div>
     </form>
   </div>
 </div>
 
-<!-- ============ GALLERY LIGHTBOX ============ -->
+<!-- ============ LIGHTBOX ============ -->
 <div class="lightbox" id="lightbox" aria-hidden="true">
   <button class="lightbox-close" aria-label="Close">&#10005;</button>
   <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 6l-6 6 6 6"/></svg></button>
-  <img id="lightboxImg" src="" alt="" />
+  <img id="lightboxImg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" />
   <button class="lb-nav lb-next" id="lbNext" aria-label="Next"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 6l6 6-6 6"/></svg></button>
   <div class="lb-count" id="lbCount"></div>
 </div>
@@ -310,34 +446,40 @@
   <div class="wrap">
     <div class="foot-grid">
       <div class="foot-brand">
-        <a href="#top" class="foot-logo"><img src="assets/logo-1.webp" alt="Thimarya" /></a>
-        <p data-ar="ثمارية العقارية شركة سعودية للاستثمار العقاري متخصصة في تطوير المشاريع السكنية الكبرى داخل مدينة الرياض، برؤية تركّز على بناء مجتمعات حضرية نابضة بالحياة." data-en="Thimarya Real Estate is a Saudi real estate investment company specializing in the development of large-scale residential projects within the city of Riyadh, with a vision focused on building vibrant urban communities.">Thimarya Real Estate is a Saudi real estate investment company specializing in the development of large-scale residential projects within the city of Riyadh, with a vision focused on building vibrant urban communities.</p>
+        <a href="#top" class="foot-logo"><img src="assets/almaha-logo-white.png" alt="مخطط المها" /></a>
+        <p class="foot-tag" data-ar="عين المستقبل" data-en="The Eye of the Future">عين المستقبل</p>
+        <p style="margin-top:.8rem" data-ar="ثمارية العقارية شركة سعودية للاستثمار العقاري متخصصة في تطوير المشاريع السكنية الكبرى داخل مدينة الرياض، برؤية تركّز على بناء مجتمعات حضرية نابضة بالحياة." data-en="Thimarya Real Estate is a Saudi real estate investment company specializing in the development of large-scale residential projects within the city of Riyadh, with a vision focused on building vibrant urban communities.">ثمارية العقارية شركة سعودية للاستثمار العقاري متخصصة في تطوير المشاريع السكنية الكبرى داخل مدينة الرياض، برؤية تركّز على بناء مجتمعات حضرية نابضة بالحياة.</p>
+        <div class="foot-credits">
+          <span data-ar="طوّرته ثمارية بالشراكة مع شركة العربي المالية" data-en="Developed by Thimarya in partnership with Al Arabi Financial Company">طوّرته ثمارية بالشراكة مع شركة العربي المالية</span>
+          <img src="assets/logo-1.webp" alt="ثمارية" />
+        </div>
         <span class="award"><img src="assets/Certified-For-Web.webp" alt="Great Place to Work · ISO 9001:2015" /></span>
+        <a class="social-x" href="https://x.com/almahaliving" target="_blank" rel="noopener" aria-label="X"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.2 2h3.3l-7.2 8.3L22.8 22h-6.6l-5.2-6.8L5 22H1.7l7.7-8.8L1.2 2H8l4.7 6.2L18.2 2zm-1.2 18h1.8L7 3.9H5.1L17 20z"/></svg><span>almahaliving</span></a>
       </div>
       <div class="foot-col">
-        <h5 data-ar="روابط" data-en="Explore">Explore</h5>
+        <h5 data-ar="روابط" data-en="Explore">روابط</h5>
         <ul>
-          <li><a href="#concept" data-ar="المشروع" data-en="The Project">The Project</a></li>
-          <li><a href="#offerings" data-ar="أبرز المعالم" data-en="Highlights">Highlights</a></li>
-          <li><a href="#features" data-ar="الخدمات" data-en="Services">Services</a></li>
-          <li><a href="#faq" data-ar="الأسئلة الشائعة" data-en="FAQ">FAQ</a></li>
-          <li><a href="#location" data-ar="الموقع" data-en="Location">Location</a></li>
-          <li><a href="https://www.thimarya.sa/en/" target="_blank" rel="noopener">thimarya.sa</a></li>
+          <li><a href="#concept" data-ar="الفرصة" data-en="Opportunity">الفرصة</a></li>
+          <li><a href="#lands" data-ar="الأراضي" data-en="Lands">الأراضي</a></li>
+          <li><a href="#masterplan" data-ar="المخطط" data-en="Master Plan">المخطط</a></li>
+          <li><a href="#services" data-ar="الخدمات" data-en="Services">الخدمات</a></li>
+          <li><a href="#location" data-ar="الموقع" data-en="Location">الموقع</a></li>
+          <li><a href="https://www.thimarya.sa/" target="_blank" rel="noopener">thimarya.sa</a></li>
         </ul>
       </div>
       <div class="foot-col">
-        <h5 data-ar="تواصل" data-en="Contact">Contact</h5>
+        <h5 data-ar="تواصل" data-en="Contact">تواصل</h5>
         <ul>
           <li><a href="tel:920013532" dir="ltr">920013532</a></li>
           <li><a href="mailto:info@thimarya.sa">info@thimarya.sa</a></li>
-          <li data-ar="المقر الرئيسي: حي العقيق، الرياض" data-en="Headquarters: Al-Aqiq District, Riyadh">Headquarters: Al-Aqiq District, Riyadh</li>
-          <li data-ar="مركز مبيعات البتيل: حي الخير، الرياض" data-en="Al-Bateel Sales Center: Al-Khair District, Riyadh">Al-Bateel Sales Center: Al-Khair District, Riyadh</li>
-          <li data-ar="مركز مبيعات المها: ديراب، الرياض" data-en="Al-Maha Sales Center: Dirab - Riyadh">Al-Maha Sales Center: Dirab - Riyadh</li>
+          <li data-ar="المقر الرئيسي: حي العقيق، الرياض" data-en="Headquarters: Al-Aqiq District, Riyadh">المقر الرئيسي: حي العقيق، الرياض</li>
+          <li data-ar="مركز مبيعات البتيل: حي الخير، الرياض" data-en="Al-Bateel Sales Center: Al-Khair District, Riyadh">مركز مبيعات البتيل: حي الخير، الرياض</li>
+          <li data-ar="مركز مبيعات المها: ديراب، الرياض" data-en="Al-Maha Sales Center: Dirab - Riyadh">مركز مبيعات المها: ديراب، الرياض</li>
         </ul>
       </div>
     </div>
     <div class="foot-bottom">
-      <p data-ar="جميع الحقوق محفوظة © 2026 - ثمارية العقارية" data-en="All rights reserved © 2026 - Thimarya Real Estate">All rights reserved © 2026 - Thimarya Real Estate</p>
+      <p data-ar="جميع الحقوق محفوظة © 2026 - ثمارية العقارية" data-en="All rights reserved © 2026 - Thimarya Real Estate">جميع الحقوق محفوظة © 2026 - ثمارية العقارية</p>
     </div>
   </div>
 </footer>
@@ -345,202 +487,219 @@
 <script>
 (function(){
   var html=document.documentElement, body=document.body;
-  var LANG='en';
+  var LANG='ar';
+  var M='assets/brochure/';
+  var ARR='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 6l6 6-6 6"/></svg>';
+  function pad(n){return (n<10?'0':'')+n;}
+  function T(o){return LANG==='en'?o.en:o.ar;}
 
   window.addEventListener('load',function(){
     setTimeout(function(){
       document.getElementById('loader').classList.add('done');
       body.classList.remove('lock');
-    },1800);
+    },1700);
   });
 
-  /* ---------- FAQ ---------- */
-  var FAQ=[
-   {qEn:'What is the Al Maha residential city project?',qAr:'ما هو مشروع مدينة المها السكنية؟',
-    aEn:'<p>Al Maha City is a leading residential and investment destination developed by Thimarya in partnership with Al Arabi Financial Company. Al Maha is located southwest of Riyadh, spanning an area of more than 13 million square meters. The project has been designed as a fully integrated urban community accommodating more than 10,000 families, featuring a strategic location adjacent to major global entertainment destinations such as Qiddiya and Prince Mohammed bin Salman Park, alongside comprehensive infrastructure and modern designs that enhance quality of life.</p>',
-    aAr:'<p>مدينة المها وجهة سكنية واستثمارية رائدة تطوّرها ثمارية بالشراكة مع شركة العربي المالية. تقع المها جنوب غرب الرياض على مساحة تتجاوز 13 مليون متر مربع، وقد صُمّمت كمجتمع حضري متكامل يتّسع لأكثر من 10,000 أسرة، بموقع استراتيجي مجاور لوجهات ترفيهية عالمية كبرى مثل القدية ومتنزه الأمير محمد بن سلمان، مع بنية تحتية شاملة وتصاميم عصرية ترتقي بجودة الحياة.</p>'},
-   {qEn:'Where is Al Maha City located in Riyadh?',qAr:'أين تقع مدينة المها في الرياض؟',
-    aEn:'<p>Al Maha City enjoys a distinguished strategic location southwest of Riyadh, directly bordering the Al Hazm District. The project sits in a vital area connecting western Riyadh districts and major master plans, most notably Al Hazm, enhancing the location\'s value and accessibility.</p>',
-    aAr:'<p>تتمتع مدينة المها بموقع استراتيجي متميّز جنوب غرب الرياض، ملاصقةً لحي الحزم. ويقع المشروع في منطقة حيوية تربط أحياء غرب الرياض والمخططات الكبرى، وفي مقدمتها الحزم، ما يعزّز قيمة الموقع وسهولة الوصول إليه.</p>'},
-   {qEn:'Where are the shopping centers and services located within Al Maha City?',qAr:'أين تقع مراكز التسوق والخدمات داخل مدينة المها؟',
-    aEn:'<p>Al Maha City was designed to be a fully integrated destination, with shopping centers and essential services concentrated along "Al Jadah" (the boulevard), which serves as the backbone of Al Maha City. This vital axis stretches for 4 km and hosts a diverse range of malls, restaurants, cafés, luxury retail stores, and pharmacies, offering a comprehensive shopping and services experience within the project. Al Maha\'s location west of Riyadh, close to the Al Hazm District, also provides easy access to the surrounding area\'s major service and entertainment destinations, ensuring residents enjoy an ideal balance between self-sufficiency within the Al Maha community and convenient mobility across the city.</p>',
-    aAr:'<p>صُمّمت مدينة المها لتكون وجهة متكاملة، حيث تتركّز مراكز التسوق والخدمات الأساسية على امتداد «الجادة» التي تمثّل العمود الفقري للمدينة. ويمتد هذا المحور الحيوي 4 كم ويضم مجموعة متنوعة من مراكز التسوق والمطاعم والمقاهي ومتاجر التجزئة الفاخرة والصيدليات، لتجربة تسوق وخدمات شاملة داخل المشروع. كما يتيح موقع المها غرب الرياض، بالقرب من حي الحزم، سهولة الوصول إلى الوجهات الخدمية والترفيهية الكبرى المحيطة، ليحظى السكان بتوازن مثالي بين الاكتفاء الذاتي داخل المجتمع وسهولة التنقل في أنحاء المدينة.</p>'},
-   {qEn:'What are the essential services available within Al Maha City?',qAr:'ما هي الخدمات الأساسية المتوفرة داخل مدينة المها؟',
-    aEn:'<p>Al Maha City offers comprehensive service integration including:</p><ul><li><span><b>Commercial and entertainment centers:</b> Via "Al Jadah" (the boulevard), which hosts malls, restaurants, cafés, and various retail stores.</span></li><li><span><b>Educational and religious facilities:</b> Schools and mosques distributed to serve all residential zones.</span></li><li><span><b>Green and sports spaces:</b> Public parks and a dedicated track for walking and physical activities.</span></li><li><span><b>Integrated service facilities to the highest standards:</b> Comprehensive water, electricity, and telecommunications networks, plus dedicated parking spaces.</span></li></ul>',
-    aAr:'<p>توفّر مدينة المها تكاملًا شاملًا في الخدمات، ويشمل:</p><ul><li><span><b>المراكز التجارية والترفيهية:</b> عبر «الجادة» التي تضم مراكز التسوق والمطاعم والمقاهي ومتاجر التجزئة المتنوعة.</span></li><li><span><b>المرافق التعليمية والدينية:</b> مدارس ومساجد موزعة لخدمة جميع المناطق السكنية.</span></li><li><span><b>المساحات الخضراء والرياضية:</b> حدائق عامة ومضمار مخصص للمشي والأنشطة البدنية.</span></li><li><span><b>مرافق خدمية متكاملة بأعلى المعايير:</b> شبكات شاملة للمياه والكهرباء والاتصالات، إضافة إلى مواقف مخصصة.</span></li></ul>'},
-   {qEn:'What types of properties are available in Al Maha City?',qAr:'ما أنواع العقارات المتوفرة في مدينة المها؟',
-    aEn:'<p>Al Maha City offers a variety of real estate options designed to meet the aspirations of both investors and homebuyers, including:</p><ul><li><span><b>Villa residential:</b> Land plots designated for building individual villas.</span></li><li><span><b>Apartment building residential:</b> Land plots designated for residential apartment buildings.</span></li><li><span><b>Commercial:</b> Plots designated for commercial and service uses.</span></li></ul>',
-    aAr:'<p>توفّر مدينة المها خيارات عقارية متنوعة تلبّي تطلعات المستثمرين والراغبين في السكن، وتشمل:</p><ul><li><span><b>سكني — فلل:</b> قطع أراضٍ مخصصة لبناء الفلل الفردية.</span></li><li><span><b>سكني — عمائر سكنية:</b> قطع أراضٍ مخصصة للعمائر السكنية.</span></li><li><span><b>تجاري:</b> قطع أراضٍ مخصصة للاستخدامات التجارية والخدمية.</span></li></ul>'}
+  /* ---------- DATA ---------- */
+  var LU=[
+    {ar:'سكني — فلل',en:'Residential — villas',a:'3,235,272',c:'11,000'},
+    {ar:'تجاري',en:'Commercial',a:'752,667',c:'550'},
+    {ar:'سكني — عمائر',en:'Residential — apartment buildings',a:'976,058',c:'1,245'},
+    {ar:'مرافق تعليمية',en:'Educational facilities',a:'376,273',c:'28'},
+    {ar:'ملاعب',en:'Playgrounds',a:'84,726',c:'26'},
+    {ar:'مواقف',en:'Parking',a:'433,874',c:'108'},
+    {ar:'مساجد',en:'Mosques',a:'166,137',c:'49'},
+    {ar:'خدمات عامة',en:'Public services',a:'48,185',c:'11'},
+    {ar:'حدائق',en:'Gardens',a:'227,126',c:'54'},
+    {ar:'شبكة الطرق والشوارع',en:'Roads and streets network',a:'3,720,793',c:'—'},
+    {ar:'الوادي',en:'Wadi',a:'1,478,967',c:'3'},
+    {ar:'حرم الوادي',en:'Wadi buffer',a:'1,223,016',c:'5'},
+    {ar:'البلوكات والشوارع والخدمات في حرم خط الكهرباء والغاز',en:'Blocks, streets & services in the power and gas line corridor',a:'323,127',c:'1'},
+    {ar:'منطقة غير مخططة',en:'Unplanned area',a:'42,719',c:'7'}
   ];
-  var faqTabs=document.getElementById('faqTabs'), faqName=document.getElementById('faqName'),
-      faqBody=document.getElementById('faqBody'), faqKicker=document.getElementById('faqKicker');
-  var faqIdx=0;
-  var ARR='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 6l6 6-6 6"/></svg>';
-  function pad(n){return (n<10?'0':'')+n;}
-  function renderFaqRail(){
-    var h='';
-    FAQ.forEach(function(f,i){
-      h+='<button class="fp-item'+(i===faqIdx?' active':'')+'" type="button" data-idx="'+i+'">'
-       +'<span class="fp-num">'+pad(i+1)+'</span>'
-       +'<span class="fp-item-info"><span class="fp-item-k">'+(LANG==='en'?f.qEn:f.qAr)+'</span></span>'
-       +'<span class="fp-arr">'+ARR+'</span></button>';
-    });
-    faqTabs.innerHTML=h;
+  var PLANS=[
+    {img:M+'masterplan-3d.jpg',tab:{ar:'المخطط العام',en:'Overall plan'},sub:{ar:'13 مليون م²',en:'13M m²'},
+     k:{ar:'المخطط العام',en:'Master plan'},n:{ar:'المخطط العام للمخططات السبعة',en:'Master plan of the seven plans'},
+     desc:{ar:'الألوان: أصفر للسكني · أحمر للتجاري · أزرق للمدارس · بنفسجي للمساجد · أخضر للحدائق.',en:'Legend: yellow residential · red commercial · blue schools · purple mosques · green gardens.'},
+     specs:[{k:{ar:'المساحة الإجمالية',en:'Total area'},v:{ar:'13,088,944 م²',en:'13,088,944 m²'}},{k:{ar:'المخططات',en:'Plans'},v:{ar:'7 معتمدة',en:'7 approved'}},{k:{ar:'المرافق والخدمات',en:'Facilities & services'},v:{ar:'60% من المساحة',en:'60% of the area'}}]},
+    {img:M+'plan-residential.jpg',tab:{ar:'السكني',en:'Residential'},sub:{ar:'فلل وعمائر',en:'Villas & apartments'},
+     k:{ar:'الجزء السكني',en:'Residential'},n:{ar:'الجزء السكني',en:'Residential part'},desc:null,
+     specs:[{k:{ar:'قطع الفلل',en:'Villa plots'},v:{ar:'11,000 · 3,235,272 م²',en:'11,000 · 3,235,272 m²'}},{k:{ar:'قطع العمائر',en:'Apartment plots'},v:{ar:'1,245 · 976,058 م²',en:'1,245 · 976,058 m²'}},{k:{ar:'إجمالي السكني',en:'Residential total'},v:{ar:'4,211,330 م²',en:'4,211,330 m²'}}]},
+    {img:M+'plan-commercial.jpg',tab:{ar:'التجاري',en:'Commercial'},sub:{ar:'550 قطعة',en:'550 plots'},
+     k:{ar:'الجزء التجاري',en:'Commercial'},n:{ar:'الجزء التجاري',en:'Commercial part'},desc:null,
+     specs:[{k:{ar:'القطع',en:'Plots'},v:{ar:'550',en:'550'}},{k:{ar:'المساحة',en:'Area'},v:{ar:'752,667 م²',en:'752,667 m²'}},{k:{ar:'المحاور',en:'Axes'},v:{ar:'الجادة والمحاور الرئيسية',en:'Boulevard & main axes'}}]},
+    {img:M+'plan-education.jpg',tab:{ar:'التعليمي',en:'Education'},sub:{ar:'28 مرفقًا',en:'28 facilities'},
+     k:{ar:'الجزء التعليمي',en:'Education'},n:{ar:'المرافق التعليمية',en:'Educational facilities'},desc:null,
+     specs:[{k:{ar:'المرافق',en:'Facilities'},v:{ar:'28',en:'28'}},{k:{ar:'المساحة',en:'Area'},v:{ar:'376,273 م²',en:'376,273 m²'}},{k:{ar:'التوزيع',en:'Distribution'},v:{ar:'تخدم جميع المناطق السكنية',en:'Serving all residential zones'}}]},
+    {img:M+'plan-jadah.jpg',tab:{ar:'الجادة',en:'The Boulevard'},sub:{ar:'4 كم · 150 م',en:'4 km · 150 m'},
+     k:{ar:'توزيع الجادة',en:'Boulevard layout'},n:{ar:'الجادة (البوليفارد)',en:'Al Jadah (the boulevard)'},
+     desc:{ar:'<ol><li>منطقة متصلة بالوادي: نقاط ترفيه ومطاعم.</li><li>منطقة تجارية إدارية بطول 600 م.</li><li>منطقة مركزية وتتضمن مسجدًا.</li><li>منطقة حركة تتضمن مركزين تجاريين متصلين من خلال جسر علوي بعرض الطريق.</li><li>منطقة جاذبة للحركة تتضمن مركزًا تجاريًا ومجمعًا ترفيهيًا.</li><li>محور المداخل الرئيسية: مبانٍ بتصميم حديث من دور أرضي تجاري ودورين مكاتب.</li></ol>',
+          en:'<ol><li>Zone connected to the wadi: entertainment points and restaurants.</li><li>600 m commercial and administrative zone.</li><li>Central zone including a mosque.</li><li>Movement zone with two commercial centres linked by a road-width overhead bridge.</li><li>Attraction zone with a commercial centre and entertainment complex.</li><li>Main entrance axis: modern buildings with a commercial ground floor and two office floors.</li></ol>'},
+     specs:[{k:{ar:'الطول',en:'Length'},v:{ar:'4 كم',en:'4 km'}},{k:{ar:'العرض',en:'Width'},v:{ar:'150 م بين شارعين بعرض 36 م',en:'150 m between two 36 m streets'}},{k:{ar:'المساحة',en:'Area'},v:{ar:'نحو 6,000,000 م²',en:'~6,000,000 m²'}}]},
+    {img:M+'track-plan.jpg',tab:{ar:'الوادي والمضمار',en:'Wadi & Track'},sub:{ar:'حياة بتناغم مع الطبيعة',en:'Life in harmony with nature'},
+     k:{ar:'الوادي والمضمار',en:'Wadi & Track'},n:{ar:'الحياة بتناغم مع الطبيعة',en:'Life in harmony with nature'},
+     desc:{ar:'المضمار: مساحات خضراء للاسترخاء وممرات للمشي والركض تنبض بالنشاط، إضافة إلى الأنشطة الأخرى.',en:'The track: green spaces for relaxation and lively walking and running paths, plus other activities.'},
+     specs:[{k:{ar:'الوادي',en:'Wadi'},v:{ar:'1,478,967 م²',en:'1,478,967 m²'}},{k:{ar:'حرم الوادي',en:'Wadi buffer'},v:{ar:'1,223,016 م²',en:'1,223,016 m²'}},{k:{ar:'عرض الشوارع',en:'Street width'},v:{ar:'من 15 إلى 60 م',en:'15 to 60 m'}}]}
+  ];
+  var VILLAS=[
+    {tab:{ar:'الفلل الفردية',en:'Detached villas'},sub:{ar:'تصاميم فريدة واقتصادية',en:'Unique, economical designs'},
+     k:{ar:'نماذج البنية الفوقية',en:'Sample homes'},n:{ar:'الفلل الفردية',en:'Detached villas'},
+     imgs:[{src:M+'villa-detached.jpg',alt:'Detached villa'},{src:M+'villa-detached-plans.jpg',alt:'Detached villa plans',plans:true}],
+     specs:[{k:{ar:'النوع',en:'Type'},v:{ar:'فيلا فردية',en:'Detached villa'}},{k:{ar:'الأدوار',en:'Floors'},v:{ar:'أرضي · أول · علوي',en:'Ground · first · upper'}},{k:{ar:'الأراضي',en:'Plots'},v:{ar:'بمساحات مختلفة',en:'Varying sizes'}}]},
+    {tab:{ar:'الفلل المتلاصقة',en:'Attached villas'},sub:{ar:'تصاميم فريدة واقتصادية',en:'Unique, economical designs'},
+     k:{ar:'نماذج البنية الفوقية',en:'Sample homes'},n:{ar:'الفلل المتلاصقة',en:'Attached villas'},
+     imgs:[{src:M+'villa-attached.jpg',alt:'Attached villa'},{src:M+'villa-attached-ground.jpg',alt:'Attached villa ground floor plan',plans:true},{src:M+'villa-attached-upper.jpg',alt:'Attached villa upper plans',plans:true}],
+     specs:[{k:{ar:'النوع',en:'Type'},v:{ar:'فيلا متلاصقة',en:'Attached villa'}},{k:{ar:'الأدوار',en:'Floors'},v:{ar:'أرضي · أول · علوي',en:'Ground · first · upper'}},{k:{ar:'الأراضي',en:'Plots'},v:{ar:'بمساحات مختلفة',en:'Varying sizes'}}]}
+  ];
+  var FAQ=[
+   {q:{ar:'ما هو مشروع مدينة المها السكنية؟',en:'What is the Al Maha residential city project?'},
+    a:{en:'<p>Al Maha City is a leading residential and investment destination developed by Thimarya in partnership with Al Arabi Financial Company. Al Maha is located southwest of Riyadh, spanning an area of more than 13 million square meters. The project has been designed as a fully integrated urban community accommodating more than 10,000 families, featuring a strategic location adjacent to major global entertainment destinations such as Qiddiya and Prince Mohammed bin Salman Park, alongside comprehensive infrastructure and modern designs that enhance quality of life.</p>',
+       ar:'<p>مدينة المها وجهة سكنية واستثمارية رائدة تطوّرها ثمارية بالشراكة مع شركة العربي المالية. تقع المها جنوب غرب الرياض على مساحة تتجاوز 13 مليون متر مربع، وقد صُمّمت كمجتمع حضري متكامل يتّسع لأكثر من 10,000 أسرة، بموقع استراتيجي مجاور لوجهات ترفيهية عالمية كبرى مثل القدية ومتنزه الأمير محمد بن سلمان، مع بنية تحتية شاملة وتصاميم عصرية ترتقي بجودة الحياة.</p>'}},
+   {q:{ar:'أين تقع مدينة المها في الرياض؟',en:'Where is Al Maha City located in Riyadh?'},
+    a:{en:'<p>Al Maha City enjoys a distinguished strategic location southwest of Riyadh, directly bordering the Al Hazm District. The project sits in a vital area connecting western Riyadh districts and major master plans, most notably Al Hazm, enhancing the location\'s value and accessibility.</p>',
+       ar:'<p>تتمتع مدينة المها بموقع استراتيجي متميّز جنوب غرب الرياض، ملاصقةً لحي الحزم. ويقع المشروع في منطقة حيوية تربط أحياء غرب الرياض والمخططات الكبرى، وفي مقدمتها الحزم، ما يعزّز قيمة الموقع وسهولة الوصول إليه.</p>'}},
+   {q:{ar:'أين تقع مراكز التسوق والخدمات داخل مدينة المها؟',en:'Where are the shopping centers and services located within Al Maha City?'},
+    a:{en:'<p>Al Maha City was designed to be a fully integrated destination, with shopping centers and essential services concentrated along "Al Jadah" (the boulevard), which serves as the backbone of Al Maha City. This vital axis stretches for 4 km and hosts a diverse range of malls, restaurants, cafés, luxury retail stores, and pharmacies, offering a comprehensive shopping and services experience within the project. Al Maha\'s location west of Riyadh, close to the Al Hazm District, also provides easy access to the surrounding area\'s major service and entertainment destinations, ensuring residents enjoy an ideal balance between self-sufficiency within the Al Maha community and convenient mobility across the city.</p>',
+       ar:'<p>صُمّمت مدينة المها لتكون وجهة متكاملة، حيث تتركّز مراكز التسوق والخدمات الأساسية على امتداد «الجادة» التي تمثّل العمود الفقري للمدينة. ويمتد هذا المحور الحيوي 4 كم ويضم مجموعة متنوعة من مراكز التسوق والمطاعم والمقاهي ومتاجر التجزئة الفاخرة والصيدليات، لتجربة تسوق وخدمات شاملة داخل المشروع. كما يتيح موقع المها غرب الرياض، بالقرب من حي الحزم، سهولة الوصول إلى الوجهات الخدمية والترفيهية الكبرى المحيطة، ليحظى السكان بتوازن مثالي بين الاكتفاء الذاتي داخل المجتمع وسهولة التنقل في أنحاء المدينة.</p>'}},
+   {q:{ar:'ما هي الخدمات الأساسية المتوفرة داخل مدينة المها؟',en:'What are the essential services available within Al Maha City?'},
+    a:{en:'<p>Al Maha City offers comprehensive service integration including:</p><ul><li><span><b>Commercial and entertainment centers:</b> Via "Al Jadah" (the boulevard), which hosts malls, restaurants, cafés, and various retail stores.</span></li><li><span><b>Educational and religious facilities:</b> Schools and mosques distributed to serve all residential zones.</span></li><li><span><b>Green and sports spaces:</b> Public parks and a dedicated track for walking and physical activities.</span></li><li><span><b>Integrated service facilities to the highest standards:</b> Comprehensive water, electricity, and telecommunications networks, plus dedicated parking spaces.</span></li></ul>',
+       ar:'<p>توفّر مدينة المها تكاملًا شاملًا في الخدمات، ويشمل:</p><ul><li><span><b>المراكز التجارية والترفيهية:</b> عبر «الجادة» التي تضم مراكز التسوق والمطاعم والمقاهي ومتاجر التجزئة المتنوعة.</span></li><li><span><b>المرافق التعليمية والدينية:</b> مدارس ومساجد موزعة لخدمة جميع المناطق السكنية.</span></li><li><span><b>المساحات الخضراء والرياضية:</b> حدائق عامة ومضمار مخصص للمشي والأنشطة البدنية.</span></li><li><span><b>مرافق خدمية متكاملة بأعلى المعايير:</b> شبكات شاملة للمياه والكهرباء والاتصالات، إضافة إلى مواقف مخصصة.</span></li></ul>'}},
+   {q:{ar:'ما أنواع العقارات المتوفرة في مدينة المها؟',en:'What types of properties are available in Al Maha City?'},
+    a:{en:'<p>Al Maha City offers a variety of real estate options designed to meet the aspirations of both investors and homebuyers, including:</p><ul><li><span><b>Villa residential:</b> Land plots designated for building individual villas.</span></li><li><span><b>Apartment building residential:</b> Land plots designated for residential apartment buildings.</span></li><li><span><b>Commercial:</b> Plots designated for commercial and service uses.</span></li></ul>',
+       ar:'<p>توفّر مدينة المها خيارات عقارية متنوعة تلبّي تطلعات المستثمرين والراغبين في السكن، وتشمل:</p><ul><li><span><b>سكني — فلل:</b> قطع أراضٍ مخصصة لبناء الفلل الفردية.</span></li><li><span><b>سكني — عمائر سكنية:</b> قطع أراضٍ مخصصة للعمائر السكنية.</span></li><li><span><b>تجاري:</b> قطع أراضٍ مخصصة للاستخدامات التجارية والخدمية.</span></li></ul>'}}
+  ];
+  var GAL=[
+    {src:'assets/almaha.webp',alt:'Al Maha master plan'},
+    {src:M+'jadah-street.jpg',alt:'Al Jadah'},
+    {src:'assets/6-min-1024x592.webp',alt:'Wadi al-Maha'},
+    {src:'assets/7-min-1.jpg',alt:'The Track'},
+    {src:M+'villa-detached.jpg',alt:'Detached villa'},
+    {src:M+'villa-attached.jpg',alt:'Attached villa'},
+    {src:M+'jadah-dusk.jpg',alt:'Al Jadah at dusk'},
+    {src:M+'wadi-park.jpg',alt:'Wadi park'}
+  ];
+
+  /* ---------- RENDERERS ---------- */
+  function railHTML(list,idx,withNum){
+    return list.map(function(p,i){
+      return '<button class="fp-item'+(i===idx?' active':'')+'" type="button" data-idx="'+i+'">'
+        +(withNum?'<span class="fp-num">'+pad(i+1)+'</span>':'')
+        +'<span class="fp-item-info"><span class="fp-item-k">'+T(p.tab||p.q)+'</span>'+(p.sub?'<span class="fp-item-sub">'+T(p.sub)+'</span>':'')+'</span>'
+        +'<span class="fp-arr">'+ARR+'</span></button>';
+    }).join('');
+  }
+  function specHTML(specs){
+    return specs.map(function(s){return '<div class="fp-spec"><span class="fp-spec-k">'+T(s.k)+'</span><span class="fp-spec-v">'+T(s.v)+'</span></div>';}).join('');
+  }
+  var planIdx=0, villaIdx=0, faqIdx=0;
+  var $=function(id){return document.getElementById(id);};
+  function showPlan(swap){
+    var p=PLANS[planIdx], img=$('planImg');
+    $('planTabs').innerHTML=railHTML(PLANS,planIdx,false);
+    img.src=p.img; img.alt=T(p.n);
+    if(swap){img.classList.remove('swap');void img.offsetWidth;img.classList.add('swap');}
+    $('fpKicker').textContent=T(p.k); $('fpName').textContent=T(p.n);
+    $('planDesc').innerHTML=p.desc?T(p.desc):'';
+    var ss=p.specs; for(var i=0;i<3;i++){ $('specK'+(i+1)).textContent=T(ss[i].k); $('specV'+(i+1)).textContent=T(ss[i].v); }
+  }
+  function showVilla(swap){
+    var v=VILLAS[villaIdx];
+    $('villaTabs').innerHTML=railHTML(VILLAS,villaIdx,false);
+    $('vmKicker').textContent=T(v.k); $('vmName').textContent=T(v.n);
+    var plans=v.imgs.filter(function(x){return x.plans;}), main=v.imgs[0];
+    $('vmMedia').innerHTML='<figure><img src="'+main.src+'" alt="'+main.alt+'" data-zoom /></figure><figure class="plans"><div class="vm-plans">'+plans.map(function(x){return '<img src="'+x.src+'" alt="'+x.alt+'" data-zoom />';}).join('')+'</div></figure>';
+    $('vmSpecs').innerHTML=specHTML(v.specs);
+    if(swap){var m=$('vmMedia');m.classList.remove('swap');void m.offsetWidth;m.classList.add('swap');}
   }
   function showFaq(swap){
     var f=FAQ[faqIdx];
-    faqKicker.textContent=(LANG==='en'?'Question ':'السؤال ')+pad(faqIdx+1);
-    faqName.textContent=(LANG==='en'?f.qEn:f.qAr);
-    faqBody.innerHTML=(LANG==='en'?f.aEn:f.aAr);
-    if(swap){ faqBody.classList.remove('swap'); void faqBody.offsetWidth; faqBody.classList.add('swap'); }
+    $('faqTabs').innerHTML=railHTML(FAQ,faqIdx,true);
+    $('faqKicker').textContent=(LANG==='en'?'Question ':'السؤال ')+pad(faqIdx+1);
+    $('faqName').textContent=T(f.q); $('faqBody').innerHTML=T(f.a);
+    if(swap){var b=$('faqBody');b.classList.remove('swap');void b.offsetWidth;b.classList.add('swap');}
   }
-  faqTabs.addEventListener('click',function(e){
-    var b=e.target.closest('.fp-item'); if(!b) return;
-    faqIdx=parseInt(b.getAttribute('data-idx'),10);
-    faqTabs.querySelectorAll('.fp-item').forEach(function(t){t.classList.toggle('active',t===b);});
-    showFaq(true);
-  });
+  function renderLU(){
+    var h='<div class="lu-head"><span>'+(LANG==='en'?'Land use':'الاستخدامات')+'</span><span>'+(LANG==='en'?'Area (m²)':'المساحات م²')+'</span><span>'+(LANG==='en'?'Plots':'عدد القطع')+'</span></div>';
+    LU.forEach(function(r){ h+='<div class="lu-row"><b>'+T(r)+'</b><span class="lu-num">'+r.a+'</span><span class="lu-num">'+r.c+'</span></div>'; });
+    h+='<div class="lu-row lu-total"><b>'+(LANG==='en'?'Total area':'إجمالي المساحة')+'</b><span class="lu-num">13,088,944</span><span class="lu-num"></span></div>';
+    $('luTable').innerHTML=h;
+  }
+  function renderDyn(){ showPlan(false); showVilla(false); showFaq(false); renderLU(); }
+  $('planTabs').addEventListener('click',function(e){var b=e.target.closest('.fp-item');if(!b)return;planIdx=+b.getAttribute('data-idx');showPlan(true);});
+  $('villaTabs').addEventListener('click',function(e){var b=e.target.closest('.fp-item');if(!b)return;villaIdx=+b.getAttribute('data-idx');showVilla(true);});
+  $('faqTabs').addEventListener('click',function(e){var b=e.target.closest('.fp-item');if(!b)return;faqIdx=+b.getAttribute('data-idx');showFaq(true);});
 
-  /* ---------- LANGUAGE ---------- */
+  /* ---------- LANGUAGE / THEME ---------- */
   function applyLang(lang){
     LANG=lang;
     html.lang=lang; html.dir=(lang==='ar')?'rtl':'ltr';
-    body.classList.toggle('lang-ar',lang==='ar');
-    body.classList.toggle('lang-en',lang==='en');
-    document.querySelectorAll('[data-ar]').forEach(function(el){
-      var v=el.getAttribute('data-'+lang);
-      if(v!==null) el.innerHTML=v;
-    });
-    document.querySelectorAll('[data-ar-ph]').forEach(function(el){
-      var v=el.getAttribute('data-'+lang+'-ph');
-      if(v!==null) el.setAttribute('placeholder',v);
-    });
-    renderFaqRail(); showFaq(false);
-    document.title=(lang==='ar')?'مجتمع المها · غرب الرياض | ثمارية':'Al Maha Community · West Riyadh | Thimarya';
+    body.classList.toggle('lang-ar',lang==='ar'); body.classList.toggle('lang-en',lang==='en');
+    document.querySelectorAll('[data-ar]').forEach(function(el){ var v=el.getAttribute('data-'+lang); if(v!==null) el.innerHTML=v; });
+    document.querySelectorAll('[data-ar-ph]').forEach(function(el){ var v=el.getAttribute('data-'+lang+'-ph'); if(v!==null) el.setAttribute('placeholder',v); });
+    renderDyn();
+    document.title=(lang==='ar')?'مخطط المها · غرب الرياض | ثمارية':'Al Maha · West Riyadh | Thimarya';
     try{localStorage.setItem('thimarya-lang',lang);}catch(e){}
   }
-  document.getElementById('langBtn').addEventListener('click',function(){ applyLang(LANG==='ar'?'en':'ar'); });
-
-  /* ---------- THEME ---------- */
-  function applyTheme(theme){
-    html.setAttribute('data-theme',theme);
-    try{localStorage.setItem('thimarya-theme',theme);}catch(e){}
-  }
-  document.getElementById('themeBtn').addEventListener('click',function(){
-    applyTheme(html.getAttribute('data-theme')==='light'?'dark':'light');
-  });
-  try{var st=localStorage.getItem('thimarya-theme'); if(st==='light') applyTheme('light');}catch(e){}
+  $('langBtn').addEventListener('click',function(){ applyLang(LANG==='ar'?'en':'ar'); });
+  function applyTheme(t){ html.setAttribute('data-theme',t); try{localStorage.setItem('thimarya-theme',t);}catch(e){} }
+  $('themeBtn').addEventListener('click',function(){ applyTheme(html.getAttribute('data-theme')==='dark'?'light':'dark'); });
+  try{var st=localStorage.getItem('thimarya-theme'); if(st==='dark') applyTheme('dark');}catch(e){}
   var saved=null; try{saved=localStorage.getItem('thimarya-lang');}catch(e){}
-  applyLang(saved==='ar'?'ar':'en');
+  applyLang(saved==='en'?'en':'ar');
 
-  /* ---------- HEADER SCROLL ---------- */
-  var header=document.getElementById('header');
-  var onScroll=function(){ header.classList.toggle('scrolled',window.scrollY>40); };
+  /* ---------- HEADER / MENU / TOP ---------- */
+  var header=$('header');
+  var onScroll=function(){ header.classList.toggle('scrolled',window.scrollY>40); $('toTop').classList.toggle('show',window.scrollY>520); };
   onScroll(); window.addEventListener('scroll',onScroll,{passive:true});
-
-  /* ---------- MOBILE MENU ---------- */
-  var burger=document.getElementById('burger'), mMenu=document.getElementById('mMenu');
+  var burger=$('burger'), mMenu=$('mMenu');
   function closeMenu(){burger.classList.remove('open');mMenu.classList.remove('open');body.classList.remove('lock');}
-  burger.addEventListener('click',function(){
-    var open=burger.classList.toggle('open');
-    mMenu.classList.toggle('open',open);
-    body.classList.toggle('lock',open);
-  });
+  burger.addEventListener('click',function(){ var o=burger.classList.toggle('open'); mMenu.classList.toggle('open',o); body.classList.toggle('lock',o); });
   mMenu.querySelectorAll('a').forEach(function(a){a.addEventListener('click',closeMenu);});
+  $('toTop').addEventListener('click',function(){ window.scrollTo({top:0,behavior:'smooth'}); });
 
-  /* ---------- COUNT UP + REVEAL ---------- */
+  /* ---------- COUNT-UP + REVEAL ---------- */
   function countUp(scope){
-    var nodes = scope.hasAttribute('data-count') ? [scope] : scope.querySelectorAll('[data-count]');
-    nodes.forEach(function(n){
+    scope.querySelectorAll('[data-count]').forEach(function(n){
       if(n.dataset.done) return; n.dataset.done='1';
-      var target=parseInt(n.getAttribute('data-count'),10), t0=null, dur=1500;
-      var suf=n.getAttribute('data-suffix')||'';
-      function fmt(v){ return v.toLocaleString('en-US'); }
-      function step(ts){ if(!t0)t0=ts; var p=Math.min((ts-t0)/dur,1);
-        var val=Math.floor((1-Math.pow(1-p,3))*target);
-        n.textContent=fmt(val)+suf; if(p<1) requestAnimationFrame(step); else n.textContent=fmt(target)+suf;
-      }
+      var target=parseInt(n.getAttribute('data-count'),10), t0=null, dur=1500, suf=n.getAttribute('data-suffix')||'';
+      function step(ts){ if(!t0)t0=ts; var p=Math.min((ts-t0)/dur,1); var v=Math.floor((1-Math.pow(1-p,3))*target);
+        n.textContent=(p<1?v:target).toLocaleString('en-US')+suf; if(p<1) requestAnimationFrame(step); }
       requestAnimationFrame(step);
     });
   }
-  var io=new IntersectionObserver(function(entries){
-    entries.forEach(function(e){
-      if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);
-        if(e.target.querySelector&&e.target.querySelector('[data-count]')) countUp(e.target);
-      }
-    });
-  },{threshold:.16});
-  document.querySelectorAll('.reveal').forEach(function(el,i){
-    el.style.transitionDelay=(Math.min(i%4,3)*0.08)+'s';
-    io.observe(el);
-  });
+  var io=new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); countUp(e.target); } }); },{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(function(el,i){ el.style.transitionDelay=(Math.min(i%4,3)*0.08)+'s'; io.observe(el); });
 
   /* ---------- FORMS → thank-you.html ---------- */
-  function wireForm(form){
-    if(!form) return;
-    form.addEventListener('submit',function(e){
-      e.preventDefault();
-      if(!form.checkValidity()){ form.reportValidity(); return; }
-      /* TODO: send to backend / CRM before redirecting */
-      window.location.href='thank-you.html';
-    });
-  }
-  wireForm(document.getElementById('leadForm'));
-  wireForm(document.getElementById('modalForm'));
+  function wireForm(f){ if(!f) return; f.addEventListener('submit',function(e){ e.preventDefault(); if(!f.checkValidity()){f.reportValidity();return;}
+    /* TODO: send to backend / CRM before redirecting */ window.location.href='thank-you.html'; }); }
+  wireForm($('leadForm')); wireForm($('modalForm'));
 
   /* ---------- MODAL ---------- */
-  var regModal=document.getElementById('regModal');
-  function openModal(){
-    if(mMenu.classList.contains('open')) closeMenu();
-    regModal.classList.add('open'); regModal.setAttribute('aria-hidden','false'); body.classList.add('lock');
-    var first=regModal.querySelector('input');
-    setTimeout(function(){ if(first) first.focus(); },140);
-  }
+  var regModal=$('regModal');
+  function openModal(){ if(mMenu.classList.contains('open')) closeMenu(); regModal.classList.add('open'); regModal.setAttribute('aria-hidden','false'); body.classList.add('lock'); var f=regModal.querySelector('input'); setTimeout(function(){if(f)f.focus();},140); }
   function closeModal(){ regModal.classList.remove('open'); regModal.setAttribute('aria-hidden','true'); body.classList.remove('lock'); }
-  document.querySelectorAll('[data-open-modal]').forEach(function(el){
-    el.addEventListener('click',function(e){ e.preventDefault(); openModal(); });
-  });
+  document.querySelectorAll('[data-open-modal]').forEach(function(el){ el.addEventListener('click',function(e){e.preventDefault();openModal();}); });
   regModal.querySelectorAll('[data-close]').forEach(function(el){ el.addEventListener('click',closeModal); });
 
-  /* ---------- BACK TO TOP ---------- */
-  var toTop=document.getElementById('toTop');
-  var onScrollTop=function(){ toTop.classList.toggle('show', window.scrollY>520); };
-  onScrollTop(); window.addEventListener('scroll',onScrollTop,{passive:true});
-  toTop.addEventListener('click',function(){ window.scrollTo({top:0,behavior:'smooth'}); });
-
-  /* ---------- GALLERY + LIGHTBOX ---------- */
-  var GAL=[
-    {src:'assets/almaha.webp',alt:'Al Maha master plan'},
-    {src:'assets/9-min-1.jpg',alt:'Main Avenue — Al Jadah'},
-    {src:'assets/6-min-1024x592.webp',alt:'Wadi al-Maha'},
-    {src:'assets/7-min-1.jpg',alt:'The Track'}
-  ];
-  var galTrack=document.getElementById('galTrack'), gh='';
-  for(var r=0;r<2;r++) GAL.forEach(function(g,i){
-    gh+='<div class="gal-slide" data-i="'+i+'"><img src="'+g.src+'" alt="'+g.alt+'" loading="lazy" decoding="async" /></div>';
-  });
-  galTrack.innerHTML=gh;
-  var lightbox=document.getElementById('lightbox'), lbImg=document.getElementById('lightboxImg'),
-      lbCount=document.getElementById('lbCount'), lbIdx=0;
-  function lbShow(i){
-    lbIdx=(i+GAL.length)%GAL.length;
-    lbImg.src=GAL[lbIdx].src; lbImg.alt=GAL[lbIdx].alt;
-    lbCount.textContent=(lbIdx+1)+' / '+GAL.length;
-  }
-  function lbOpen(i){ lbShow(i); lightbox.classList.add('open'); lightbox.setAttribute('aria-hidden','false'); body.classList.add('lock'); }
-  function lbClose(){ lightbox.classList.remove('open'); lightbox.setAttribute('aria-hidden','true'); body.classList.remove('lock'); }
-  galTrack.addEventListener('click',function(e){
-    var s=e.target.closest('.gal-slide'); if(s) lbOpen(parseInt(s.getAttribute('data-i'),10));
-  });
-  lightbox.addEventListener('click',function(e){ if(e.target===lightbox||e.target.closest('.lightbox-close')) lbClose(); });
-  document.getElementById('lbPrev').addEventListener('click',function(e){ e.stopPropagation(); lbShow(lbIdx-1); });
-  document.getElementById('lbNext').addEventListener('click',function(e){ e.stopPropagation(); lbShow(lbIdx+1); });
+  /* ---------- GALLERY + LIGHTBOX (gallery, plan zoom, villa images) ---------- */
+  var track=$('galTrack'), gh='';
+  for(var r=0;r<2;r++) GAL.forEach(function(g,i){ gh+='<div class="gal-slide" data-i="'+i+'"><img src="'+g.src+'" alt="'+g.alt+'" loading="lazy" decoding="async" /></div>'; });
+  track.innerHTML=gh;
+  var lb=$('lightbox'), lbImg=$('lightboxImg'), lbCount=$('lbCount'), lbList=[], lbIdx=0;
+  function lbShow(i){ lbIdx=(i+lbList.length)%lbList.length; lbImg.src=lbList[lbIdx].src; lbImg.alt=lbList[lbIdx].alt||''; lbCount.textContent=lbList.length>1?(lbIdx+1)+' / '+lbList.length:''; }
+  function lbOpen(list,i){ lbList=list; lb.classList.toggle('single',list.length<2); lbShow(i); lb.classList.add('open'); lb.setAttribute('aria-hidden','false'); body.classList.add('lock'); }
+  function lbClose(){ lb.classList.remove('open'); lb.setAttribute('aria-hidden','true'); body.classList.remove('lock'); }
+  track.addEventListener('click',function(e){ var s=e.target.closest('.gal-slide'); if(s) lbOpen(GAL,+s.getAttribute('data-i')); });
+  function zoomPlan(){ var im=$('planImg'); lbOpen([{src:im.src,alt:im.alt}],0); }
+  $('planViewer').addEventListener('click',zoomPlan); $('planZoom').addEventListener('click',zoomPlan);
+  $('vmMedia').addEventListener('click',function(e){ var im=e.target.closest('img[data-zoom]'); if(!im) return; var all=[].slice.call($('vmMedia').querySelectorAll('img')).map(function(x){return {src:x.src,alt:x.alt};}); lbOpen(all,[].slice.call($('vmMedia').querySelectorAll('img')).indexOf(im)); });
+  lb.addEventListener('click',function(e){ if(e.target===lb||e.target.closest('.lightbox-close')||(lbList.length<2&&e.target===lbImg)) lbClose(); });
+  $('lbPrev').addEventListener('click',function(e){e.stopPropagation();lbShow(lbIdx-1);});
+  $('lbNext').addEventListener('click',function(e){e.stopPropagation();lbShow(lbIdx+1);});
   document.addEventListener('keydown',function(e){
-    if(e.key==='Escape'){ if(lightbox.classList.contains('open')) lbClose(); else if(regModal.classList.contains('open')) closeModal(); }
-    if(lightbox.classList.contains('open')){
-      if(e.key==='ArrowLeft') lbShow(lbIdx-1);
-      if(e.key==='ArrowRight') lbShow(lbIdx+1);
-    }
+    if(e.key==='Escape'){ if(lb.classList.contains('open')) lbClose(); else if(regModal.classList.contains('open')) closeModal(); }
+    if(lb.classList.contains('open')&&lbList.length>1){ if(e.key==='ArrowLeft') lbShow(lbIdx-1); if(e.key==='ArrowRight') lbShow(lbIdx+1); }
   });
 })();
 </script>
